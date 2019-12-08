@@ -1,0 +1,33 @@
+.container-margin {
+  margin-top: 8rem;
+}
+
+.container-color {
+  background-color: $white-color;
+}
+.container-color .card-header{
+  background-color: $white-color;
+}
+
+.form-group .form-control:focus {
+  @include input-border-focus;
+}
+
+.card-body .btn-register,
+.card-body .btn-login {
+  @include btn_style;
+}
+
+.card-body .btn-register:hover,
+.card-body .btn-login:hover {
+  @include btn_style-hover;
+}
+
+.card-body .btn-link {
+  color: $black-color;
+}
+
+.card-body .btn-link:hover {
+  color: $nav-btn-color;
+  text-decoration: none;
+}

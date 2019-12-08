@@ -1,0 +1,44 @@
+@mixin center_item($x,$y : '') {
+  position: absolute;
+  left: $x;
+  @if $y !='' {
+    top: $y;
+    transform: translate(-$x, -$y);
+    @if $y=='' {
+      transform: translate(-$x);
+    }
+  }
+}
+
+@mixin btn_style() {
+  background-color: $nav-btn-color;
+  z-index: 3;
+  color: $white-color;
+}
+
+@mixin btn_style-hover {
+  color: $white-color;
+}
+
+@mixin input-border-focus {
+  border-color: $nav-btn-color;
+  box-shadow: inherit;
+}
+
+@mixin responsive_view {
+  float: left;
+  width: 32.99999%;
+}
+
+@mixin img_container {
+  width: 100%;
+  height: auto;
+}
+
+@mixin clearfix() {
+  &::after {
+    display: block;
+    content: "";
+    clear: both;
+  }
+}

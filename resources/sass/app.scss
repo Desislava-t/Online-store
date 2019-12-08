@@ -1,0 +1,16 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+// Variables
+@import 'variables';
+@import 'mixin';
+@import '_bloks/main-nav';
+@import '_bloks/anchors';
+@import '_bloks/swiper';
+@import '_bloks/products';
+@import '_bloks/view-product';
+@import '_bloks/service';
+@import '_bloks/login-register';
+@import '_bloks/blog-article';
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+

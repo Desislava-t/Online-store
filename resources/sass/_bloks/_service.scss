@@ -1,0 +1,43 @@
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.column {
+  margin-left: auto;
+  margin-right: auto;
+  flex: 25%;
+  padding: 1.2em;
+}
+
+@media screen and (max-width: 992px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+.service-title {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.service-icon {
+  display: block;
+  text-align: center;
+  font-size: 2em;
+}
+
+.service-title:hover,
+.service-icon:hover {
+  color: $nav-btn-color;
+}
+
+.column > p {
+  text-align: center;
+}
+
+@media screen and (min-width: 700px) {
+  .column p {
+    font-size: 1.5em;
+  }
+}

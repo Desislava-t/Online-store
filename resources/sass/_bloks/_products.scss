@@ -1,0 +1,154 @@
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+
+.content__image {
+  position: relative;
+  margin: 10px 20px 30px;
+  height: 300px;
+  min-width: 250px;
+  max-width: 435px;
+  overflow: hidden;
+}
+
+.content__image__gallery {
+  position: relative;
+  min-width: 250px;
+  height: 300px;
+  opacity: 0.88;
+  transition: all 0.4s ease-out;
+}
+
+.content__image__gallery img {
+  width: auto;
+  height: 115%;
+}
+
+.content__image__gallery:hover {
+  transform: scale(1.1, 1.1);
+  opacity: 1;
+}
+
+.content-item {
+  position: absolute;
+  color: $black-color;
+  left: 3%;
+  bottom: 0;
+}
+
+.btn-item {
+  background-color: $white-color;
+  margin: 1em;
+  color: $black-color;
+  box-shadow: 2px 2px 4px;
+}
+
+//btn-item and btn-our-product hover
+.content-item .btn-item:hover,
+.btn-group .btn-our-products:hover {
+  @include btn_style();
+}
+
+/*Our products*/
+.btn-our-products {
+  text-transform: uppercase;
+}
+
+.center-btn-our-products {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+
+/*List of products - faker*/
+.responsive {
+  @include responsive_view;
+}
+
+.gallery {
+  position: relative;
+}
+
+.gallery img {
+  @include img_container;
+}
+
+.image {
+  opacity: 1;
+  display: block;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.gallery:hover .image {
+  opacity: 0.8;
+  filter: alpha(opacity=50);
+}
+
+.btn-center_add-view {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 38%;
+  left: 35%;
+  display: inline;
+  text-align: center;
+  background-color: $white-color;
+}
+
+.gallery a:hover {
+  text-decoration: none;
+}
+
+.gallery:hover .btn-center_add-view {
+  opacity: 1;
+}
+
+.fa-shopping-cart, .fa-eye {
+  color: $black-color;
+  font-size: 1.3em;
+}
+
+.fa-shopping-cart:hover, .fa-eye:hover {
+  color: $nav-btn-color;
+}
+
+.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .btn-center_add-view {
+    top: 30%;
+    left: 30%;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+
+  .btn-center_add-view {
+    top: 38%;
+    left: 35%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix {
+  @include clearfix;
+}

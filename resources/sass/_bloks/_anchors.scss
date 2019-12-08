@@ -1,0 +1,20 @@
+#top {
+  position: fixed;
+  bottom: 3.25em;
+  right: 5.25em;
+  z-index: 6;
+  overflow: visible;
+}
+
+#top .fa-chevron-circle-up {
+  color: #888888;
+  margin: 0;
+  position: relative;
+  left: 1em;
+  top: 0.8em;
+  font-size: 2.25em;
+}
+
+#top:hover .fa-chevron-circle-up {
+  color: $nav-btn-color;
+}

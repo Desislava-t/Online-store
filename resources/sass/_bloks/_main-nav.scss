@@ -1,0 +1,163 @@
+html, body {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.navbar button:focus {
+  outline: none;
+}
+
+.btn.active.focus,
+.btn.active:focus,
+.btn.focus,
+.btn.focus:active,
+.btn:active:focus,
+.btn:focus {
+  outline: 0 !important;
+  outline-offset: 0 !important;
+  background-image: none !important;
+  -webkit-box-shadow: none !important;
+  box-shadow: none !important;
+}
+
+.alert-info {
+  z-index: 4;
+}
+
+.header-nav {
+  position: fixed;
+  z-index: 3;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+}
+
+.navbar .btn-style-menu,
+.navbar .btn-cart,
+.form-inline .btn-style-search,
+.modal-content .btn-cart-empty,
+.card-body .btn-home {
+  @include btn_style;
+}
+
+.btn-style-menu {
+  width: 3em;
+}
+
+.btn-cart:hover,
+.btn-style-menu:hover,
+.form-inline .btn-style-search:hover,
+.modal-content .btn-cart-empty:hover,
+.card-body .btn-home:hover {
+  @include btn_style-hover;
+}
+
+.btn-style-menu:hover .fa-align-justify::before {
+  content: '\f103';
+}
+
+.btn-account {
+  position: absolute;
+  top: 1em;
+  left: 4.375em;
+}
+
+.btn-search {
+  position: absolute;
+  right: 4em;
+}
+
+//btn logout
+.dropdown-menu.show {
+  border: none;
+}
+
+//account and search icon
+.btn-account > .far, .btn-search > .fas {
+  color: $nav-btn-color;
+}
+
+//menu icon, cart icon
+.fa-align-justify, .fa-opencart {
+  color: $white-color;
+  transition: transform .2s
+}
+
+//cart icon
+.fa-opencart:hover {
+  transform: scale(1.1);
+}
+
+.navbar .navbar-brand {
+  margin-right: 0rem;
+}
+
+.logo-style a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color: $black-color;
+}
+
+.logo-style a:hover {
+  color: $black-color;
+}
+
+.modal-open .modal-backdrop {
+  z-index: 0;
+}
+
+.modal-backdrop.show {
+  opacity: 0;
+}
+
+.dropdown-menu {
+  max-width: none;
+  border: none;
+  border-radius: 0;
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.hover-effect {
+  color: $black-color;
+}
+
+.hover-effect:hover {
+  color: $nav-btn-color;
+  text-decoration: none;
+}
+
+.dropdown {
+  position: relative;
+  display: block;
+}
+
+.dropdown-categories {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  display: none;
+  background-color: $white-color;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: $black-color;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.fa-chevron-down {
+  font-size: 0.6em;
+  padding-left: 0.5em;
+}
+
+.collapse .form-control:focus {
+  border-color: $nav-btn-color;
+  box-shadow: 0 0 0 0.1rem #8B0000;
+}

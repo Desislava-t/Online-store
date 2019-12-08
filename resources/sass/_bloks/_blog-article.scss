@@ -1,0 +1,59 @@
+.container-margin-blog{
+  margin-top: 4rem;
+}
+.content-blog {
+  @include responsive_view;
+}
+
+.blog-gallery {
+  overflow: hidden;
+}
+
+.blog-gallery-img img {
+  @include img_container;
+  background-size: cover;
+  background-position: center;
+  transition: all 0.5s ease;
+}
+
+.blog-gallery-img img:hover {
+  transform: scale(1.2);
+}
+
+.content-item-blog {
+  position: absolute;
+  width: 70%;
+  color: $black-color;
+  background: $white-color;
+  left: 15%;
+  bottom: 0;
+  text-align: center;
+}
+
+.blog-item {
+  background-color: $white-color;
+  margin: 1em;
+  color: $black-color;
+}
+
+
+.content-item-blog h5 {
+  font-weight: 700;
+}
+
+.link-article:hover {
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 700px) {
+  .content-blog {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .content-blog {
+    width: 100%;
+  }
+}
