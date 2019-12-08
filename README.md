@@ -1,4 +1,4 @@
-# Laravel 6 Online-store demo temlate
+# Laravel 6 Online-store demo template
 
 1. ```composer install```
 
