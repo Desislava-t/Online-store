@@ -1854,8 +1854,57 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
-  mounted: function mounted() {// console.log('Component mounted.')
+  mounted: function mounted() {
+    console.log('Component mounted.');
   }
 });
 
@@ -37162,23 +37211,166 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "container" }, [
-      _c("div", { staticClass: "row justify-content-center" }, [
-        _c("div", { staticClass: "col-md-8" }, [
-          _c("div", { staticClass: "card" }, [
-            _c("div", { staticClass: "card-header" }, [
-              _vm._v("Example Component")
-            ]),
+    return _c(
+      "div",
+      {
+        staticClass: "carousel slide swiper-container",
+        attrs: { id: "carouselIndicators", "data-ride": "carousel" }
+      },
+      [
+        _c("ol", { staticClass: "carousel-indicators" }, [
+          _c("li", {
+            staticClass: "active",
+            attrs: {
+              "data-target": "#carouselIndicators",
+              "data-slide-to": "0"
+            }
+          }),
+          _vm._v(" "),
+          _c("li", {
+            attrs: {
+              "data-target": "#carouselIndicators",
+              "data-slide-to": "1"
+            }
+          }),
+          _vm._v(" "),
+          _c("li", {
+            attrs: {
+              "data-target": "#carouselIndicators",
+              "data-slide-to": "2"
+            }
+          })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "carousel-inner" }, [
+          _c("div", { staticClass: "carousel-item active" }, [
+            _c(
+              "a",
+              {
+                staticClass: "swiper-textOffer",
+                attrs: { href: "#", "aria-label": "swiper text offer" }
+              },
+              [_vm._v("Up to 50% of")]
+            ),
             _vm._v(" "),
-            _c("div", { staticClass: "card-body" }, [
-              _vm._v(
-                "\n                    I'm an example component.\n                "
-              )
-            ])
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/1.jpg", alt: "Main banner 1" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "swiper-textOffer",
+                attrs: { href: "#", "aria-label": "swiper text offer" }
+              },
+              [_vm._v("View our new collection")]
+            ),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/2.jpg", alt: "Main banner 2" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c(
+              "a",
+              {
+                staticClass: "swiper-textOffer",
+                attrs: { href: "#", "aria-label": "swiper text offer" }
+              },
+              [_vm._v("20% off")]
+            ),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/3.jpg", alt: "Main banner 3" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c("a", {
+              staticClass: "swiper-textOffer",
+              attrs: { href: "#", "aria-label": "swiper text offer" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/4.jpg", alt: "Main banner 4" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c("a", {
+              staticClass: "swiper-textOffer",
+              attrs: { href: "#", "aria-label": "swiper text offer" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/5.jpg", alt: "Main banner 5" }
+            })
+          ]),
+          _vm._v(" "),
+          _c("div", { staticClass: "carousel-item" }, [
+            _c("a", {
+              staticClass: "swiper-textOffer",
+              attrs: { href: "#", "aria-label": "swiper text offer" }
+            }),
+            _vm._v(" "),
+            _c("img", {
+              staticClass: "swiperImg d-block w-100",
+              attrs: { src: "banners-swiper/6.jpg", alt: "Main banner 6" }
+            })
           ])
-        ])
-      ])
-    ])
+        ]),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "carousel-control-prev",
+            attrs: {
+              href: "#carouselIndicators",
+              role: "button",
+              "data-slide": "prev",
+              "aria-label": "carousel control"
+            }
+          },
+          [
+            _c("span", {
+              staticClass: "carousel-control-prev-icon",
+              attrs: { "aria-hidden": "true" }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "sr-only" }, [_vm._v("Previous")])
+          ]
+        ),
+        _vm._v(" "),
+        _c(
+          "a",
+          {
+            staticClass: "carousel-control-next",
+            attrs: {
+              href: "#carouselIndicators",
+              role: "button",
+              "data-slide": "next",
+              "aria-label": "carousel control"
+            }
+          },
+          [
+            _c("span", {
+              staticClass: "carousel-control-next-icon",
+              attrs: { "aria-hidden": "true" }
+            }),
+            _vm._v(" "),
+            _c("span", { staticClass: "sr-only" }, [_vm._v("Next")])
+          ]
+        )
+      ]
+    )
   }
 ]
 render._withStripped = true
@@ -49384,6 +49576,10 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 // const app = new Vue({
 //     el: '#app',
 // });
+
+var ff = new Vue({
+  el: '#ff'
+});
 
 /***/ }),
 

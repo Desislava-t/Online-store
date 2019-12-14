@@ -95,11 +95,50 @@
 
             </div>
             <!-- Grid column -->
+            <hr class="clearfix w-100 d-md-none">
+
+            <!-- Grid column -->
+            <div class="col-md-2 mx-auto">
+
+                <!-- Links -->
+                <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Bulletin</h5>
+
+                <form action="<?php htmlspecialchars($_SERVER['PHP_SELF']);?>" method="POST" enctype="multipart/form-data">
+                    @csrf
+                    <div class="form-group">
+                        <label for="inputEmail1">Email address</label>
+                        <input type="email" name="email" class="form-control" id="inputEmail1"
+                               aria-describedby="emailHelp"
+                               placeholder="Enter email">
+                        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                            else.
+                        </small>
+                    </div>
+                    <button type="submit" class="btn" style="background-color: #8E2A36;color: #fff">Subscribe
+                    </button>
+                    @if(session('message'))
+                        <div class="alert alert-info">
+                            {{session('message')}}
+                        </div>
+                    @endif
+                    @if ($errors->any())
+                        <div class="alert alert-danger">
+                            <ul>
+                                @foreach ($errors->all() as $error)
+                                    <li>{{ $error }}</li>
+                                @endforeach
+                            </ul>
+                        </div>
+                    @endif
+                </form>
+
+            </div>
 
         </div>
         <!-- Grid row -->
 
     </div>
+
     <!-- Footer Links -->
 
     <hr>

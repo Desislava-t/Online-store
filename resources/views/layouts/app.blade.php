@@ -28,8 +28,9 @@
 
 </head>
 <body>
+{{--<div id="app">--}}
     <header class="header-nav">
-        <div class="pos-f-t" id="app">
+        <div class="pos-f-t">
             <nav class="navbar bg-white" id="navbar">
 
                 {{--Menu--}}
@@ -235,17 +236,13 @@
             </button>
         </div>
     @endif
-    {{--@if ($errors->any())--}}
-        {{--<div class="alert alert-danger mt-5">--}}
-            {{--<ul>--}}
-                {{--@foreach ($errors->all() as $error)--}}
-                    {{--<li>{{ $error }}</li>--}}
-                {{--@endforeach--}}
-            {{--</ul>--}}
-        {{--</div>--}}
-    {{--@endif--}}
 
-    @yield('content')
+{{--</div>--}}
 
+@yield('content')
+<div id="ff">
+    @section('vue')
+    @show
+</div>
 </body>
 </html>

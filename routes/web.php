@@ -1,9 +1,8 @@
 <?php
-//Route::get('/', 'WebstoreController@index');
-
 Route::get('/welcome', function () {
     return view('welcome');
 });
+
 Route::get('/checkout', function () {
     return view('checkout');
 });
@@ -30,6 +29,18 @@ Route::get('/empty', 'WebstoreController@destroyCart')->name('empty');
 //# PayPal status callback
 //Route::get('status', 'PaypalController@getPaymentStatus');
 
+Route::get('/admin/subscriber/subscribers', 'SubscriberController@index')->name('subscribers');
+
+Route::get('admin/subscriber/subscribers/delete/{id}', 'SubscriberController@destroy')->name('subscriber.delete');
+
+Route::post('/', 'SubscriberController@store');
+
+Route::post('view-product','SubscriberController@store');
+
+Route::get('admin/subscriber/subscriber-edit/{id}', 'SubscriberController@edit')->name('subscriber-edit');
+
+Route::post('admin/subscriber/subscriber-update/{id}', 'SubscriberController@update')->name('subscriber-update');
+
 Auth::routes(['verify' => true]);
 
 Route::get('profile', function () {
@@ -37,3 +48,5 @@ Route::get('profile', function () {
 })->middleware('verified');
 
 Auth::routes();
+
+

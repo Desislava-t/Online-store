@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Product;
+use App\Subscribe;
 use Gloudemans\Shoppingcart\Facades\Cart;
 
 class WebstoreController extends Controller
@@ -18,7 +19,7 @@ class WebstoreController extends Controller
     {
         Cart::add($product->id, $product->name, 1, $product->price);
 //        return redirect('/home');
-        return back()->with('status','Success: You have added products to your shopping cart');
+        return back()->with('status', 'Success: You have added products to your shopping cart');
     }
 
     # Our function for removing a certain product from the cart
@@ -35,5 +36,4 @@ class WebstoreController extends Controller
 //        return redirect('/home');
         return back();
     }
-
 }

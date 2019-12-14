@@ -13,3 +13,7 @@
     @include('partials.service')
     @include('partials.footer')
 @endsection
+
+@section('vue')
+
+@endsection
