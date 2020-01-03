@@ -3,6 +3,10 @@ Route::get('/welcome', function () {
     return view('welcome');
 });
 
+Route::get('/blog-information', function () {
+    return view('blog.blog-information');
+});
+
 Route::get('/checkout', function () {
     return view('checkout');
 });
@@ -11,7 +15,10 @@ Route::get('/', 'WebstoreController@index')->name('index');
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/blog', 'BlogController@index')->name('blog');
+
+Route::get('/blog', function () {
+    return view('blog');
+});
 
 Route::get('/checkout', 'CheckoutController@index')->name('checkout');
 
@@ -32,10 +39,6 @@ Route::get('/empty', 'WebstoreController@destroyCart')->name('empty');
 Route::get('/admin/subscriber/subscribers', 'SubscriberController@index')->name('subscribers');
 
 Route::get('admin/subscriber/subscribers/delete/{id}', 'SubscriberController@destroy')->name('subscriber.delete');
-
-Route::post('/', 'SubscriberController@store');
-
-Route::post('view-product','SubscriberController@store');
 
 Route::get('admin/subscriber/subscriber-edit/{id}', 'SubscriberController@edit')->name('subscriber-edit');
 

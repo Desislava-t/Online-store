@@ -31,7 +31,7 @@ body {
 
 .header-nav {
   position: fixed;
-  z-index: 3;
+  z-index: 16;
   overflow: hidden;
   top: 0;
   width: 100%;
@@ -105,6 +105,12 @@ body {
 
 .logo-style a:hover {
   color: #000;
+}
+
+@media only screen and (max-width: 350px) {
+  .logo-style a {
+    font-size: 1em;
+  }
 }
 
 .modal-open .modal-backdrop {
@@ -383,51 +389,7 @@ body {
 }
 
 .container-margin-view-product {
-  margin-top: 4.5rem;
-}
-
-.row {
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.column {
-  margin-left: auto;
-  margin-right: auto;
-  flex: 25%;
-  padding: 1.2em;
-}
-
-@media screen and (max-width: 992px) {
-  .row {
-    flex-direction: column;
-  }
-}
-
-.service-title {
-  text-align: center;
-  text-transform: uppercase;
-}
-
-.service-icon {
-  display: block;
-  text-align: center;
-  font-size: 2em;
-}
-
-.service-title:hover,
-.service-icon:hover {
-  color: #8E2A36;
-}
-
-.column > p {
-  text-align: center;
-}
-
-@media screen and (min-width: 700px) {
-  .column p {
-    font-size: 1.5em;
-  }
+  margin-top: 5.5rem;
 }
 
 .container-margin {

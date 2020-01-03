@@ -2,7 +2,6 @@
 
 namespace App\Http\Controllers;
 
-use App\Subscriber;
 use Illuminate\Http\Request;
 use App\Subscribe;
 
@@ -40,14 +39,18 @@ class SubscriberController extends Controller
     public function store(Request $request)
     {
         $validated = $request->validate([
-            'email' => 'email|string|unique:subscribes',
+            'email' => 'email|string|unique:subscribes|required|max:255',
         ]);
-        \App\Subscribe::create($validated);
 
-        $subs = new Subscribe();
-        $subs->email = $request->email;
-        return back()->with('message', 'You have successfully subscribers!');
 
+//        \App\Subscribe::create($validated);
+//
+//        $subs = new Subscribe();
+//        $subs->email = $request->email;
+//        return back()->with('message', 'You have successfully subscribers!');
+        Subscribe::create([
+            'email' => $request->input('email'),
+        ]);
     }
 
     /**

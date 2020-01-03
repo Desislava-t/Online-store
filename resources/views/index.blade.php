@@ -10,10 +10,10 @@
 @section('content')
     @include ('partials.swiper')
     @include('partials.products')
-    @include('partials.service')
-    @include('partials.footer')
 @endsection
 
-@section('vue')
-
+@section('component')
+    <blog-review-component></blog-review-component>
+    <service-component></service-component>
+    <subscriber-component-footer></subscriber-component-footer>
 @endsection

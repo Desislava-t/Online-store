@@ -62,7 +62,7 @@
                     </a>
                 </div>
                 <div class="desc">{{$product->name}}</div>
-                <div class="desc">{{$product->price}}BNG</div>
+                <div class="desc">{{$product->price}} лв.</div>
             </div>
         </div>
     @endforeach

@@ -4,12 +4,14 @@ namespace App\Http\Controllers;
 
 use App\Product;
 use App\Subscribe;
+use App\Blog;
 use Gloudemans\Shoppingcart\Facades\Cart;
 
 class WebstoreController extends Controller
 {
     public function index()
     {
+//        $blog = Blog::latest()->take(1)->get();
         $products = Product::all();
         return view('index')->with('products', $products);
     }

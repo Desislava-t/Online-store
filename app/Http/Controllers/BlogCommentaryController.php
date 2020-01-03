@@ -2,10 +2,10 @@
 
 namespace App\Http\Controllers;
 
+use App\BlogCommentary;
 use Illuminate\Http\Request;
-use App\Blog;
 
-class BlogController extends Controller
+class BlogCommentaryController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,11 +14,11 @@ class BlogController extends Controller
      */
     public function index()
     {
-        $blogProducts = Blog::all();
-        return response()->json($blogProducts);
+        $blogCommentaries = BlogCommentary::all();
+        return response()->json($blogCommentaries);
+
 
     }
-
 
     /**
      * Show the form for creating a new resource.
@@ -38,16 +38,28 @@ class BlogController extends Controller
      */
     public function store(Request $request)
     {
-        //
+        $validated = $request->validate([
+            'author_name' => 'required|string|max:255',
+            'author_email' => 'email|string|required|max:255',
+            'author_comment' => 'required|min:10|string',
+        ]);
+
+
+        BlogCommentary::create([
+            'author_name' => $request->input('author_name'),
+            'author_email' => $request->input('author_email'),
+            'author_comment' => $request->input('author_comment'),
+        ]);
+
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  int $id
+     * @param  \App\BlogCommentary $blogCommentary
      * @return \Illuminate\Http\Response
      */
-    public function show($id)
+    public function show(BlogCommentary $blogCommentary)
     {
         //
     }
@@ -55,10 +67,10 @@ class BlogController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  int $id
+     * @param  \App\BlogCommentary $blogCommentary
      * @return \Illuminate\Http\Response
      */
-    public function edit($id)
+    public function edit(BlogCommentary $blogCommentary)
     {
         //
     }
@@ -67,10 +79,10 @@ class BlogController extends Controller
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request $request
-     * @param  int $id
+     * @param  \App\BlogCommentary $blogCommentary
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, $id)
+    public function update(Request $request, BlogCommentary $blogCommentary)
     {
         //
     }
@@ -78,10 +90,10 @@ class BlogController extends Controller
     /**
      * Remove the specified resource from storage.
      *
-     * @param  int $id
+     * @param  \App\BlogCommentary $blogCommentary
      * @return \Illuminate\Http\Response
      */
-    public function destroy($id)
+    public function destroy(BlogCommentary $blogCommentary)
     {
         //
     }

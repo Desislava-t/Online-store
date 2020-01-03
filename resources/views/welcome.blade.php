@@ -7,6 +7,6 @@
 
 @section('title-page','')
 
-@section('vue')
+@section('component')
     <example-component></example-component>
 @endsection

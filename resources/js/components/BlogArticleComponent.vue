@@ -5,11 +5,11 @@
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
                     <div class="blog-gallery">
                         <div class="blog-gallery-img">
-                            <!--<img class="" src="{{$product->image}}" alt="img product faker">-->
                             <img v-bind:src="blogProduct.image" alt="blog img faker">
                         </div>
                     </div>
-                    <div class="content-item-blog"><a href="#blog-articles" class="link-article" aria-label="article blog">
+                    <div class="content-item-blog"><a href="./blog-information" target="_blank" class="link-article"
+                                                      aria-label="article blog">
                         <h5 class="blog-item">{{blogProduct.title}}</h5>
                         <p class="blog-item">{{blogProduct.created_at}}</p>
                     </a>
@@ -17,16 +17,14 @@
                 </div>
             </div>
         </div>
+        <span class="clearfix mb-5 d-block"></span>
     </div>
 
 </template>
 
-<style scoped>
-
-</style>
-
 <script>
     export default {
+        name: "BlogArticleComponent",
         data() {
             return {
                 blogProducts: [],
@@ -48,5 +46,8 @@
             },
         }
     }
-
 </script>
+
+<style scoped>
+
+</style>

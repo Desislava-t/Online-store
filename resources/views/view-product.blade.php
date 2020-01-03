@@ -9,5 +9,8 @@
 
 @section('content')
     @include('partials.view-product')
-    @include('partials.footer')
+@endsection
+
+@section('component')
+    <subscriber-component-footer></subscriber-component-footer>
 @endsection

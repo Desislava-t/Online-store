@@ -1,40 +1,46 @@
 <form action="" method="POST" enctype="multipart/form-data"></form>
 @csrf
 <div class="container container-margin-checkout">
-    <div class="modal-body">
-        <table class="table">
-            <thead>
-            <tr>
-                <th></th>
-                <th>Product</th>
-                <th>Quantity</th>
-                <th>Price</th>
-            </tr>
-            </thead>
-            <tbody>
-            @foreach(Cart::content() as $cartItem)
+    <div class="card">
+        <div class="modal-body">
+            <div class="text-center text-uppercase font-weight-bold p-3">
+                Your card
+            </div>
+            <table class="table">
+                <thead>
                 <tr>
-                    <td>
-                        <!-- Remove product button -->
-                        <a href="{{ route('remove', [ $cartItem->rowId ]) }}">x</a>
-                    </td>
-                    <td>{{ $cartItem->name }}</td>
-                    <td>{{ $cartItem->qty }}</td>
-                    <td>{{ $cartItem->price }} BGN</td>
+                    <th></th>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
                 </tr>
-            @endforeach
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <!-- Total price of whole cart -->
-                <td class="uk-text-bold">Total: {{{ Cart::SubTotal() }}} BGN</td>
-            </tr>
-            </tbody>
-        </table>
+                </thead>
+                <tbody>
+                @foreach(Cart::content() as $cartItem)
+                    <tr>
+                        <td>
+                            <!-- Remove product button -->
+                            <a href="{{ route('remove', [ $cartItem->rowId ]) }}">x</a>
+                        </td>
+                        <td>{{ $cartItem->name }}</td>
+                        <td>{{ $cartItem->qty }}</td>
+                        <td>{{ $cartItem->price }} BGN</td>
+                    </tr>
+                @endforeach
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td></td>
+                    <!-- Total price of whole cart -->
+                    <td class="uk-text-bold">Total: {{{ Cart::SubTotal() }}} .лв</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
     </div>
-    <div class="row">
-        <div class="col-md-8 order-md-1">
+
+    <div class="row mt-5">
+        <div class="col-md-12 order-md-1">
             <h4 class="mb-3">Billing address</h4>
             <form class="needs-validation" novalidate="">
                 <div class="row">
@@ -55,7 +61,7 @@
                 </div>
 
                 <div class="mb-3">
-                    <label for="email">Email <span class="text-muted">(Optional)</span></label>
+                    <label for="email">Email</label>
                     <input type="email" class="form-control" id="email" required="">
                     <div class="invalid-feedback">
                         Please enter a valid email address for shipping updates.
@@ -129,64 +135,24 @@
                     </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-cart btn-lg btn-block" style="background-color: #8E2A36;," type="submit">Continue
+                <button class="btn btn-cart btn-lg btn-block" style="background-color: #8E2A36; color: #fff"
+                        type="submit">Continue
                     to checkout
                 </button>
             </form>
         </div>
     </div>
-    <form class="was-validated">
-        <div class="mb-3">
-            <label for="validationTextarea">Textarea</label>
-            <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" required></textarea>
-            <div class="invalid-feedback">
-                Please enter a message in the textarea.
-            </div>
-        </div>
+    </div>
+    <style>
+        .row input:focus,
+        .custom-select:focus {
+            border-color: #8E2A36;
+            box-shadow: inherit;
+        }
 
-        <div class="custom-control custom-checkbox mb-3">
-            <input type="checkbox" class="custom-control-input" id="customControlValidation1" required>
-            <label class="custom-control-label" for="customControlValidation1">Check this custom checkbox</label>
-            <div class="invalid-feedback">Example invalid feedback text</div>
-        </div>
+        .container-margin-checkout {
+            margin-top: 7rem;
+            margin-bottom: 4rem;
+        }
 
-        <div class="custom-control custom-radio">
-            <input type="radio" class="custom-control-input" id="customControlValidation2" name="radio-stacked" required>
-            <label class="custom-control-label" for="customControlValidation2">Toggle this custom radio</label>
-        </div>
-        <div class="custom-control custom-radio mb-3">
-            <input type="radio" class="custom-control-input" id="customControlValidation3" name="radio-stacked" required>
-            <label class="custom-control-label" for="customControlValidation3">Or toggle this other custom radio</label>
-            <div class="invalid-feedback">More example invalid feedback text</div>
-        </div>
-
-        <div class="form-group">
-            <select class="custom-select" required>
-                <option value="">Open this select menu</option>
-                <option value="1">One</option>
-                <option value="2">Two</option>
-                <option value="3">Three</option>
-            </select>
-            <div class="invalid-feedback">Example invalid custom select feedback</div>
-        </div>
-
-        <div class="custom-file">
-            <input type="file" class="custom-file-input" id="validatedCustomFile" required>
-            <label class="custom-file-label" for="validatedCustomFile">Choose file...</label>
-            <div class="invalid-feedback">Example invalid custom file feedback</div>
-        </div>
-    </form>
-</div>
-<style>
-    .row input:focus,
-    .custom-select:focus {
-        border-color: #8E2A36;
-        box-shadow: inherit;
-    }
-
-    .container-margin-checkout {
-        margin-top: 5rem;
-        margin-bottom: 4rem;
-    }
-
-</style>
+    </style>

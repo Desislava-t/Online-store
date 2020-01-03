@@ -17,4 +17,7 @@ Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
 
-Route::resource('subscribe','SubscriberController');
+Route::resource('subscribe', 'SubscriberController');
+Route::resource('blog-commentary', 'BlogCommentaryController');
+Route::resource('blog-commentary', 'BlogCommentaryController');
+Route::resource('blog', 'BlogController');
