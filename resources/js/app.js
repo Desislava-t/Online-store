@@ -27,6 +27,7 @@ Vue.component('blog-article-component', require('./components/BlogArticleCompone
 Vue.component('blog-review-component', require('./components/BlogReviewComponent').default);
 Vue.component('blog-article-information', require('./components/BlogArticleInformationComponent').default);
 Vue.component('service-component', require('./components/ServiceComponent.vue').default);
+Vue.component('about-us-component', require('./components/AboutUsComponent.vue').default);
 Vue.component('subscriber-component-footer', require('./components/FooterSubscriberComponent.vue').default);
 
 /**

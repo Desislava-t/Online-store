@@ -32,7 +32,7 @@
 
                     <ul class="list-unstyled">
                         <li>
-                            <a class="text-white" href="#" aria-label="link About us">About us</a>
+                            <a class="text-white" href="./about-us" aria-label="link About us">About us</a>
                         </li>
                         <li>
                             <a class="text-white" href="#" aria-label="link Delivery Information">Delivery

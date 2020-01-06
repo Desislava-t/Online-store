@@ -21,3 +21,5 @@ Route::resource('subscribe', 'SubscriberController');
 Route::resource('blog-commentary', 'BlogCommentaryController');
 Route::resource('blog-commentary', 'BlogCommentaryController');
 Route::resource('blog', 'BlogController');
+
+

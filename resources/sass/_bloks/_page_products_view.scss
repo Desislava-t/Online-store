@@ -1,0 +1,66 @@
+/*nav*/
+.title-style {
+  color: grey;
+  opacity: 0.6;
+}
+
+.icon-home, .women-category {
+  font-size: 1.25em;
+  color: #000;
+  padding: 0.5em;
+}
+
+.icon-home:hover, .women-category:hover {
+
+  color: #8E2A36;
+}
+
+.img-top-product {
+  width: 200px;
+}
+
+.product-categories {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 320px) {
+  .product-categories {
+    font-size: 0.75em;
+  }
+}
+
+
+/*.nav*/
+
+/*top product + feature product*/
+@media only screen and (max-width: 560px) {
+  .img-top-product,
+  .featureProductImg {
+    width: 100%;
+  }
+}
+
+/*./top product*/
+
+/*product*/
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform .5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/*./product*/
+
+
+/*feature products*/
+.sale {
+  text-decoration: line-through;
+}
+
+/*./feature products*/

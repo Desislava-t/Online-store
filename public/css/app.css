@@ -13,6 +13,12 @@ body {
   outline: none;
 }
 
+.page-link.focus,
+.page-link.focus:active,
+.page-link:active:focus,
+.page-link:focus,
+.page-link.active.focus,
+.page-link.active:focus,
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -162,33 +168,12 @@ body {
 
 .fa-chevron-down {
   font-size: 0.6em;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 
 .collapse .form-control:focus {
   border-color: #8E2A36;
   box-shadow: 0 0 0 0.1rem #8B0000;
-}
-
-#top {
-  position: fixed;
-  bottom: 3.25em;
-  right: 5.25em;
-  z-index: 6;
-  overflow: visible;
-}
-
-#top .fa-chevron-circle-up {
-  color: #888888;
-  margin: 0;
-  position: relative;
-  left: 1em;
-  top: 0.8em;
-  font-size: 2.25em;
-}
-
-#top:hover .fa-chevron-circle-up {
-  color: #8E2A36;
 }
 
 .swiper-container {
@@ -217,6 +202,27 @@ body {
   .swiper-textOffer {
     font-size: 1.1em;
   }
+}
+
+#top {
+  position: fixed;
+  bottom: 3.25em;
+  right: 5.25em;
+  z-index: 6;
+  overflow: visible;
+}
+
+#top .fa-chevron-circle-up {
+  color: #888888;
+  margin: 0;
+  position: relative;
+  left: 1em;
+  top: 0.8em;
+  font-size: 2.25em;
+}
+
+#top:hover .fa-chevron-circle-up {
+  color: #8E2A36;
 }
 
 .content {
@@ -491,6 +497,76 @@ body {
     width: 100%;
   }
 }
+
+/*nav*/
+
+.title-style {
+  color: grey;
+  opacity: 0.6;
+}
+
+.icon-home,
+.women-category {
+  font-size: 1.25em;
+  color: #000;
+  padding: 0.5em;
+}
+
+.icon-home:hover,
+.women-category:hover {
+  color: #8E2A36;
+}
+
+.img-top-product {
+  width: 200px;
+}
+
+.product-categories {
+  font-size: 1em;
+}
+
+@media only screen and (max-width: 320px) {
+  .product-categories {
+    font-size: 0.75em;
+  }
+}
+
+/*.nav*/
+
+/*top product + feature product*/
+
+@media only screen and (max-width: 560px) {
+  .img-top-product,
+  .featureProductImg {
+    width: 100%;
+  }
+}
+
+/*./top product*/
+
+/*product*/
+
+.img-hover-zoom {
+  overflow: hidden;
+}
+
+.img-hover-zoom img {
+  transition: transform 0.5s ease;
+}
+
+.img-hover-zoom:hover img {
+  transform: scale(1.1);
+}
+
+/*./product*/
+
+/*feature products*/
+
+.sale {
+  text-decoration: line-through;
+}
+
+/*./feature products*/
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

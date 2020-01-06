@@ -45,7 +45,7 @@
     {{--Add faker products--}}
 
     {{--{{ var_dump(session()->get('cart')) }}--}}
-    <a href="#" id="top" aria-label="anchors link"><i class="fas fa-chevron-circle-up"></i></a>
+
     @foreach($products as $key=>$product)
         <div class="responsive mt-5">
             <div class="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">

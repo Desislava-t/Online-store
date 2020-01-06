@@ -1,7 +1,7 @@
 // function get from https://codepen.io/rdallaire/pen/apoyx
 
 $(window).scroll(function () {
-    if ($(this).scrollTop() >= 900) {
+    if ($(this).scrollTop() >= 500) {
         $('#top').fadeIn(200);
     } else {
         $('#top').fadeOut(200);

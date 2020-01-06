@@ -19,6 +19,7 @@
                     <a class="nav-link text-decoration-none" id="v-pills-fashion-tab" data-toggle="pill"
                        href="#v-pills-settings" role="tab"
                        aria-controls="v-pills-fashion" aria-selected="false">Fashion</a>
+                    <!--./Blog nav-->
 
                     <!--Feature product-->
                     <a href="#" class="text-decoration-none">
@@ -70,7 +71,8 @@
                     </ul>
                 </div>
             </div>
-            <!--Blog nav-->
+            <!--./Feature product-->
+
 
             <div class="col-9">
                 <div class="tab-content" id="v-pills-tabContent">
@@ -90,7 +92,7 @@
                                 </p>
                             </div>
                         </div>
-                        <!--Blog article-->
+                        <!--./Blog article-->
 
                         <!--Add comment form-->
                         <form action="./api/blog-commentary" method="post" enctype="multipart/form-data"
@@ -122,7 +124,7 @@
                                 </div>
                             </div>
                         </form>
-                        <!--Add comment form-->
+                        <!--./Add comment form-->
 
                         <!--Blog comment message-->
                         <div class="form-group">
@@ -148,7 +150,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!--Blog comment message-->
+                        <!--./Blog comment message-->
 
                         <!--Comments-->
                         <div class="row">
@@ -164,15 +166,15 @@
                                                 <h4 class="d-inline">Author: {{ blogComment.author_name }}</h4>
                                                 <br>
                                                 <h4 class="d-inline">Comment:</h4> {{ blogComment.author_comment }}
-                                                <span class="ml-5">
-                                    <h4 class="d-inline">Date added:</h4> {{ blogComment.created_at }}
-                                </span></li>
+                                                <span class="ml-5"> <h4 class="d-inline">Date added:</h4></span>
+                                                {{ blogComment.created_at }}
+                                            </li>
                                         </ul>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!--Comments-->
+                        <!--./Comments-->
                     </div>
                 </div>
             </div>

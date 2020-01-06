@@ -14,7 +14,8 @@ class BlogCommentaryController extends Controller
      */
     public function index()
     {
-        $blogCommentaries = BlogCommentary::all();
+//        $blogCommentaries = BlogCommentary::all();
+        $blogCommentaries = BlogCommentary::orderby('id', 'desc')->get();
         return response()->json($blogCommentaries);
 
 

@@ -11,7 +11,6 @@ class WebstoreController extends Controller
 {
     public function index()
     {
-//        $blog = Blog::latest()->take(1)->get();
         $products = Product::all();
         return view('index')->with('products', $products);
     }

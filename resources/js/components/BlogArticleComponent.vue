@@ -8,11 +8,12 @@
                             <img v-bind:src="blogProduct.image" alt="blog img faker">
                         </div>
                     </div>
-                    <div class="content-item-blog"><a href="./blog-information" target="_blank" class="link-article"
-                                                      aria-label="article blog">
-                        <h5 class="blog-item">{{blogProduct.title}}</h5>
-                        <p class="blog-item">{{blogProduct.created_at}}</p>
-                    </a>
+                    <div class="content-item-blog">
+                        <a href="./blog-information" target="_blank" class="link-article"
+                           aria-label="article blog">
+                            <h5 class="blog-item">{{blogProduct.title}}</h5>
+                            <p class="blog-item">{{blogProduct.created_at}}</p>
+                        </a>
                     </div>
                 </div>
             </div>

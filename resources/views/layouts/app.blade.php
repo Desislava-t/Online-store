@@ -28,6 +28,11 @@
 </head>
 <body>
 <header class="header-nav">
+
+    {{--Anchorst--}}
+    <a href="#" id="top" aria-label="anchors link"><i class="fas fa-chevron-circle-up"></i></a>
+    {{--./Anchorst--}}
+
     <div class="pos-f-t">
         <nav class="navbar bg-white" id="navbar">
 
@@ -130,40 +135,65 @@
         <div class="collapse" id="navbarToggleExternalContent">
             <div class="bg-white p-4">
                 <div class="dropdown">
-                    <div class="nav-link dropdown-categories hover-effect">Women<i class="fas fa-chevron-down"></i>
+                    <div class="nav-link dropdown-categories hover-effect">
+                        <a href="{{ route('women') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Women
+                        </a>
+                        <i class="fas fa-chevron-down dropdown-icon"></i>
                     </div>
                     <div class="dropdown-content">
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Dress</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Coats</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Blouses</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Jeans</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Pants</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Shoes</a>
+                        <a href="{{ route('women-dress') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Dress
+                        </a>
+                        <a href="{{ route('women-blouses') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Blouses
+                        </a>
+                        <a href="{{ route('women-jeans') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Jeans
+                        </a>
+                    </div>
+                </div>
+
+                <div class="dropdown">
+                    <div class="nav-link dropdown-categories hover-effect">
+                        <a href="{{ route('men') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Men
+                        </a>
+                        <i class="fas fa-chevron-down"></i>
+                    </div>
+                    <div class="dropdown-content">
+                        <a href="{{ route('men-shirts') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Shirts
+                        </a>
+                        <a href="{{ route('men-sweaters') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Sweaters
+                        </a>
+                        <a href="{{ route('men-pants') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Pants
+                        </a>
                     </div>
                 </div>
                 <div class="dropdown">
-                    <div class="nav-link dropdown-categories hover-effect">Men<i class="fas fa-chevron-down"></i>
+                    <div class="nav-link dropdown-categories hover-effect">
+                        <a href="{{ route('accessories') }}" class="hover-effect"
+                           aria-label="Your dropdown categories">Accessories
+                        </a>
+                        <i class="fas fa-chevron-down"></i>
                     </div>
-                    <div class="dropdown-content">
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Shirts</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Sweaters</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Pants</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Jeans</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Shoes</a>
-                    </div>
-                </div>
-                <div class="dropdown">
-                    <div class="nav-link dropdown-categories hover-effect">Accessories<i
-                                class="fas fa-chevron-down"></i></div>
 
                     <div class="dropdown-content">
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Sunglasses</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Coats</a>
-                        <a href="#" class="hover-effect" aria-label="Your dropdown categories">Shoes</a>
+                        <a href="{{ route('accessories-sunglasses') }}" class="hover-effect"
+                           aria-label="Your dropdown
+                        categories">Sunglasses
+                        </a>
                     </div>
                 </div>
-                <a href="#" class="nav-link hover-effect" aria-label="Your categories">About us</a>
-                <a href="blog" class="nav-link hover-effect" aria-label="Your categories">Blog</a>
+                <a href="about-us" class="nav-link hover-effect"
+                   aria-label="Your categories">About us
+                </a>
+                <a href="blog" class="nav-link hover-effect"
+                   aria-label="Your categories">Blog
+                </a>
             </div>
         </div>
 
@@ -236,7 +266,8 @@
     </div>
 @endif
 
-@yield('content')
+@section('content')
+@show
 
 <div id="component">
     @section('component')

@@ -13,6 +13,7 @@ $factory->define(Product::class, function (Faker $faker) {
         'name' => $faker->name,
         'price' => $faker->numberBetween(10, 300),
         'image' => $faker->imageUrl($width = 1012, $height = 1800, 'fashion', true, 'Faker', true),
+        'imageNightlife' => $faker->imageUrl($width = 1012, $height = 1800, 'nightlife', true, 'Faker', true),
 
     ];
 });

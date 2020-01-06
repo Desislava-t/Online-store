@@ -7,9 +7,9 @@ Route::get('/blog-information', function () {
     return view('blog.blog-information');
 });
 
-Route::get('/checkout', function () {
-    return view('checkout');
-});
+//Route::get('/checkout', function () {
+//    return view('checkout');
+//});
 
 Route::get('/', 'WebstoreController@index')->name('index');
 
@@ -20,7 +20,23 @@ Route::get('/blog', function () {
     return view('blog');
 });
 
+Route::get('/about-us', function () {
+    return view('about-us');
+});
+
+Route::get('/women', 'ProductController@index')->name('women');
+Route::get('/women-dress', 'ProductController@womanDress')->name('women-dress');
+Route::get('/women-blouses', 'ProductController@womanBlouses')->name('women-blouses');
+Route::get('/women-jeans', 'ProductController@womanJeans')->name('women-jeans');
+Route::get('/men', 'ProductController@men')->name('men');
+Route::get('/men-shirts', 'ProductController@menShirts')->name('men-shirts');
+Route::get('/men-sweaters', 'ProductController@menSweaters')->name('men-sweaters');
+Route::get('/men-pants', 'ProductController@menPants')->name('men-pants');
+Route::get('/accessories', 'ProductController@accessories')->name('accessories');
+Route::get('/accessories-sunglasses', 'ProductController@accessoriesSunglasses')->name('accessories-sunglasses');
+
 Route::get('/checkout', 'CheckoutController@index')->name('checkout');
+Route::post('/checkout', 'CheckoutController@store')->name('checkout.store');
 
 Route::get('/view-product', 'HomeController@store')->name('view-product');
 

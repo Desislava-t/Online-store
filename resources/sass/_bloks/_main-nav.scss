@@ -10,6 +10,12 @@ html, body {
   outline: none;
 }
 
+.page-link.focus,
+.page-link.focus:active,
+.page-link:active:focus,
+.page-link:focus,
+.page-link.active.focus,
+.page-link.active:focus,
 .btn.active.focus,
 .btn.active:focus,
 .btn.focus,
@@ -160,7 +166,7 @@ html, body {
 
 .fa-chevron-down {
   font-size: 0.6em;
-  padding-left: 0.5em;
+  padding-left: 1em;
 }
 
 .collapse .form-control:focus {

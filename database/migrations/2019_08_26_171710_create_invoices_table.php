@@ -17,13 +17,14 @@ class CreateInvoicesTable extends Migration
             $table->increments('id');
 
             # Data obtained through the API response of PayPal
+            $table->string('customer_first_name')->nullable();
             $table->string('customer_email')->nullable();
-            $table->string('customer_id')->nullable();
+            $table->string('customer_last_name')->nullable();
+            $table->string('customer_shipping_address')->nullable();
+            $table->string('customer_country')->nullable();
+            $table->string('customer_city')->nullable();
             $table->string('country_code')->nullable();
-            $table->string('payment_id')->nullable();
-            $table->string('currency')->nullable();
-            $table->string('payment_status')->nullable();
-            $table->double('price', 2);
+            $table->string('customer_information')->nullable();
             $table->timestamps();
         });
     }

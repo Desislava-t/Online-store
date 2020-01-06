@@ -1,20 +1,18 @@
 <template>
+
     <div class="container" style="margin-top: 6em">
-        <div v-for="blogProduct in blogProducts">
-            <div class="content-blog mt-5 mb-2">
-                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-                    <div class="blog-gallery">
-                        <div class="blog-gallery-img">
-                            <!--<img class="" src="{{$product->image}}" alt="img product faker">-->
-                            <img v-bind:src="blogProduct.image" alt="blog img faker">
-                        </div>
-                    </div>
-                    <div class="content-item-blog"><a href="#blog-articles" class="link-article" aria-label="article blog">
-                        <h5 class="blog-item">{{blogProduct.title}}</h5>
-                        <p class="blog-item">{{blogProduct.created_at}}</p>
-                    </a>
-                    </div>
-                </div>
+        <div class="col-md-3 d-inline-block" v-for="getProduct in womenProducts">
+            <div class="card mb-2">
+                <ol class="carousel-indicators">
+                    <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                    <li data-target="#multi-item-example" data-slide-to="1"></li>
+                    <li data-target="#multi-item-example" data-slide-to="2"></li>
+                </ol>
+                <img class="card-img-top"
+                     v-bind:src="getProduct.image"
+                     alt="Card image cap">
+
+
             </div>
         </div>
     </div>
@@ -29,18 +27,18 @@
     export default {
         data() {
             return {
-                blogProducts: [],
+                womenProducts: [],
             }
         },
         mounted() {
-            this.getBlogArticles();
+            this.getWomenProduct();
         },
         methods: {
-            getBlogArticles() {
+            getWomenProduct() {
                 const self = this;
-                axios.get('./api/blog')
+                axios.get('./api/women')
                     .then(function (response) {
-                        self.blogProducts = response.data;
+                        self.womenProducts = response.data;
                     })
                     .catch(function (error) {
                         console.log(error);
