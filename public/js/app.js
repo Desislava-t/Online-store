@@ -39133,7 +39133,6 @@ var render = function() {
                       staticClass: "link-article",
                       attrs: {
                         href: "./blog-information",
-                        target: "_blank",
                         "aria-label": "article blog"
                       }
                     },
