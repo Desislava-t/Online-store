@@ -82,7 +82,7 @@
                         <!--Blog article-->
                         <div class="card">
                             <img src="from-blog/1.jpg" class="w-100" alt="article blog image">
-                            <div class="card-cody">
+                            <div class="card-body">
                                 <h4 class="text-center">The 90`s are back</h4>
                                 <p class="textOverflow">
                                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ad asperiores at atque
@@ -318,6 +318,11 @@
 
     /*Blog article*/
 
+    /*.col-9 {*/
+        /*flex: 0;*/
+        /*max-width: 0;*/
+    /*}*/
+
     @media only screen and (max-width: 520px) {
         .col-3 {
             display: none;
@@ -325,6 +330,8 @@
 
         .col-9 {
             max-width: 100%;
+            flex:0 0 100%;
+
         }
     }
 </style>

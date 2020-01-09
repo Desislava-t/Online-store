@@ -221,7 +221,7 @@
     }
 
     .card-body-container {
-        height: 580px;
+        height: 620px;
     }
 
     .carousel-height {
@@ -242,6 +242,10 @@
 
     .img-circle {
         border-radius: 50%;
+    }
+
+    .card-body {
+        padding: 0.75em;
     }
 
     .card-width {
