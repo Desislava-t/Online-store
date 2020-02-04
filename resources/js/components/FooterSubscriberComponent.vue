@@ -9,7 +9,7 @@
             <div class="row">
 
                 <!-- Grid column -->
-                <div class="col-md-4 mx-auto">
+                <div class="col-md-4 ml-1 mr-1">
 
                     <!-- Content -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Webstote</h5>
@@ -25,7 +25,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 ml-1 mr-1">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Information</h5>
@@ -52,7 +52,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 ml-1 mr-1">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Contact Us</h5>
@@ -80,7 +80,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 ml-1 mr-1">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Partnership</h5>
@@ -102,7 +102,7 @@
                 <hr class="clearfix w-100 d-md-none">
 
                 <!-- Grid column -->
-                <div class="col-md-2 mx-auto">
+                <div class="col-md-2 ml-1 mr-1">
 
                     <!-- Links -->
                     <h5 class="font-weight-bold text-uppercase mt-3 mb-4">Bulletin</h5>

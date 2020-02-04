@@ -2434,41 +2434,7 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({
-  data: function data() {
-    return {
-      womenProducts: []
-    };
-  },
-  mounted: function mounted() {
-    this.getWomenProduct();
-  },
-  methods: {
-    getWomenProduct: function getWomenProduct() {
-      var self = this;
-      axios.get('./api/women').then(function (response) {
-        self.womenProducts = response.data;
-      })["catch"](function (error) {
-        console.log(error);
-      });
-    }
-  }
-});
+/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -40131,45 +40097,9 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container", staticStyle: { "margin-top": "6em" } },
-    _vm._l(_vm.womenProducts, function(getProduct) {
-      return _c("div", { staticClass: "col-md-3 d-inline-block" }, [
-        _c("div", { staticClass: "card mb-2" }, [
-          _vm._m(0, true),
-          _vm._v(" "),
-          _c("img", {
-            staticClass: "card-img-top",
-            attrs: { src: getProduct.image, alt: "Card image cap" }
-          })
-        ])
-      ])
-    }),
-    0
-  )
+  return _c("div")
 }
-var staticRenderFns = [
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("ol", { staticClass: "carousel-indicators" }, [
-      _c("li", {
-        staticClass: "active",
-        attrs: { "data-target": "#multi-item-example", "data-slide-to": "0" }
-      }),
-      _vm._v(" "),
-      _c("li", {
-        attrs: { "data-target": "#multi-item-example", "data-slide-to": "1" }
-      }),
-      _vm._v(" "),
-      _c("li", {
-        attrs: { "data-target": "#multi-item-example", "data-slide-to": "2" }
-      })
-    ])
-  }
-]
+var staticRenderFns = []
 render._withStripped = true
 
 
@@ -40213,7 +40143,7 @@ var render = function() {
           _vm._v(" "),
           _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
           _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 mx-auto" }, [
+          _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
             _c(
               "h5",
               { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" },
@@ -40355,7 +40285,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-4 mx-auto" }, [
+    return _c("div", { staticClass: "col-md-4 ml-1 mr-1" }, [
       _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
         _vm._v("Webstote")
       ]),
@@ -40371,7 +40301,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 mx-auto" }, [
+    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
       _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
         _vm._v("Information")
       ]),
@@ -40427,7 +40357,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 mx-auto" }, [
+    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
       _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
         _vm._v("Contact Us")
       ]),
@@ -40483,7 +40413,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 mx-auto" }, [
+    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
       _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
         _vm._v("Partnership")
       ]),
