@@ -9,7 +9,7 @@
                         </div>
                     </div>
                     <div class="content-item-blog">
-                        <a href="./blog-information"class="link-article"
+                        <a href="./blog-information" class="link-article"
                            aria-label="article blog">
                             <h5 class="blog-item">{{blogProduct.title}}</h5>
                             <p class="blog-item">{{blogProduct.created_at}}</p>
