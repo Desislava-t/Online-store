@@ -1,9 +1,13 @@
-<div class="container" style="margin-top: 6em">
+<div class="container container-mt">
 
     {{--description of position by category--}}
     <div class="p-5 text-center">
-        <a href="{{ url('/') }}" class="text-decoration-none" title="Home"> <i class="fas fa-home icon-home"></i></a> >>
-        <a href="{{ route('accessories') }}" class="text-decoration-none hover-effect">accessories</a>
+        <a href="{{ url('/') }}" class="text-decoration-none" title="Home">
+            <i class="fas fa-home icon-home"></i>
+        </a> >>
+        <a href="{{ route('accessories') }}" class="text-decoration-none hover-effect" aria-label="accessories">
+            accessories
+        </a>
     </div>
     {{--./description of position by category--}}
 
@@ -15,52 +19,62 @@
                 <ul class="nav flex-column">
                     <li class="nav-item">
                         <a class="nav-link text-uppercase font-weight-bold hover-effect product-categories"
-                           href="{{ route('women') }}" aria-label="product categories">Women
+                           href="{{ route('women') }}" aria-label="product categories Women">
+                            Women
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link active text-lowercase hover-effect"
-                           href="{{ route('women-dress') }}" aria-label="product categories">dress
+                           href="{{ route('women-dress') }}" aria-label="product categories dress">
+                            dress
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase hover-effect"
-                           href="{{ route('women-blouses') }}" aria-label="product categories">blouses
+                           href="{{ route('women-blouses') }}" aria-label="product categories blouses">
+                            blouses
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase active hover-effect"
-                           href="{{ route('women-jeans') }}" aria-label="product categories">jeans
+                           href="{{ route('women-jeans') }}" aria-label="product categories jeans">
+                            jeans
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase font-weight-bold hover-effect product-categories"
-                           href="{{ route('men') }}" aria-label="product categories">Men
+                           href="{{ route('men') }}" aria-label="product categories Men">
+                            Men
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase hover-effect"
-                           href="{{ route('men-shirts') }}" aria-label="product categories">shirts
+                           href="{{ route('men-shirts') }}" aria-label="product categories shirts">
+                            shirts
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase hover-effect"
-                           href="{{ route('men-sweaters') }}" aria-label="product categories">sweaters
+                           href="{{ route('men-sweaters') }}" aria-label="product categories sweaters">
+                            sweaters
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase hover-effect"
-                           href="{{ route('men-pants') }}" aria-label="product categories">pants
+                           href="{{ route('men-pants') }}" aria-label="product categories pants">
+                            pants
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-uppercase font-weight-bold hover-effect product-categories"
-                           href="{{ route('accessories') }}" aria-label="product categories">Accessories
+                           href="{{ route('accessories') }}" aria-label="product categories Accessories">
+                            Accessories
                         </a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link text-lowercase hover-effect"
-                           href="{{ route('accessories-sunglasses') }}" aria-label="product categories">Sunglasses
+                           href="{{ route('accessories-sunglasses') }}" aria-label="product categories Sunglasses">
+                            Sunglasses
                         </a>
                     </li>
                 </ul>
@@ -68,12 +82,12 @@
             {{--./Navigate--}}
 
             {{--Top product--}}
-            <a href="#top-product" class="text-decoration-none">
+            <a href="#top-product" class="text-decoration-none" aria-label="Top product">
                 <h5 class="text-uppercase m-3 title-style">Top product</h5>
             </a>
             @foreach($getProducts as $key=>$getProduct)
                 <img src="{{ $getProduct->image }}" class="img-top-product" alt="top product">
-                <a href="#product" class="text-decoration-none hover-effect">
+                <a href="#product" class="text-decoration-none hover-effect" aria-label="product">
                     <h4 class="card-title">{{ $getProduct->product_name }}</h4>
                 </a>
                 <p class="card-text">{{ $getProduct->product_price }} лв.</p>
@@ -81,13 +95,13 @@
         {{--./Top product--}}
 
         <!--Feature product-->
-            <a href="#" class="text-decoration-none">
+            <a href="#" class="text-decoration-none" aria-label="Feature products">
                 <h5 class="text-uppercase pt-3 title-style">Feature products</h5>
             </a>
 
             <div>
                 <img src="feature-products/1.jpg" class="featureProductImg" alt="Feature products">
-                <a href="#scarf" class="text-decoration-none hover-effect">
+                <a href="#scarf" class="text-decoration-none hover-effect" aria-label="scarf">
                     <h4 class="card-title">Scarf</h4>
                 </a>
                 <ul class="list-unstyled borderFeatureProduct">
@@ -98,7 +112,7 @@
 
             <div>
                 <img src="feature-products/2.jpg" class="featureProductImg" alt="Feature products">
-                <a href="#soft-blouse" class="text-decoration-none hover-effect">
+                <a href="#soft-blouse" class="text-decoration-none hover-effect" aria-label="soft-blouse">
                     <h4 class="card-title">Soft blouse</h4>
                 </a>
                 <ul class="list-unstyled borderFeatureProduct">
@@ -109,7 +123,7 @@
 
             <div>
                 <img src="feature-products/3.jpg" class="featureProductImg" alt="Feature products">
-                <a href="#High-heels" class="text-decoration-none hover-effect">
+                <a href="#High-heels" class="text-decoration-none hover-effect" aria-label="High-heels">
                     <h4 class="card-title">High heels</h4>
                 </a>
                 <ul class="list-unstyled borderFeatureProduct">
@@ -120,7 +134,7 @@
 
             <div>
                 <img src="feature-products/4.jpg" class="featureProductImg" alt="Feature products">
-                <a href="#Hot-dress" class="text-decoration-none hover-effect">
+                <a href="#Hot-dress" class="text-decoration-none hover-effect" aria-label="Hot-dress">
                     <h4 class="card-title">Hot dress</h4>
                 </a>
                 <ul class="list-unstyled borderFeatureProduct">
@@ -144,7 +158,7 @@
                     <div class="col-sm-4">
                         <div class="card border-0">
                             <div class="img-hover-zoom">
-                                <img src="{{ $product->imageNightlife }}" alt="img product faker" width="100%">
+                                <img src="{{ $product->imageNightlife }}" alt="img product faker" class="w-100">
                             </div>
                             <div class="card-body">
                                 <h5 class="card-title">{{ $product->name }}</h5>
@@ -153,13 +167,14 @@
                                     <!-- The button for adding the products to the cart -->
                                     <a href="{{ route('add', [ $product->getRouteKey() ])}}"
                                        class="text-decoration-none" aria-label="link add to cart">
-                                        <button class="btn" title="Add to cart"><i class="fas fa-shopping-cart"></i>
+                                        <button class="btn" title="Add to cart">
+                                            <i class="fas fa-shopping-cart"></i>
                                         </button>
                                     </a>|
                                     <a href="{{ route('view-product') }}" target="_blank"
                                        aria-label="view-product link">
-                                        <button class="btn" title="View" aria-label="view product btn"><i
-                                                    class="far fa-eye"></i>
+                                        <button class="btn" title="View" aria-label="view product btn">
+                                            <i class="far fa-eye"></i>
                                         </button>
                                     </a>
                                 </div>
@@ -182,24 +197,3 @@
 
 
 <span class="clearfix"></span>
-
-
-<style>
-    /*paginate*/
-    .page-item.active .page-link {
-        color: #000;
-        background-color: inherit;
-        border-color: #8E2A36;
-    }
-
-    .page-link {
-        color: #000;
-    }
-
-    .pagination {
-        margin: 3em;
-    }
-
-    /*./paginate*/
-
-</style>

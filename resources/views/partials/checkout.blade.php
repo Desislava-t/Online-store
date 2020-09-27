@@ -1,4 +1,5 @@
 <div class="container container-margin-checkout">
+    {{--card--}}
     <div class="card">
         <div class="modal-body">
             <div class="text-center text-uppercase font-weight-bold p-3">
@@ -36,7 +37,9 @@
             </table>
         </div>
     </div>
+    {{--./card--}}
 
+    {{--Billing address--}}
     <div class="row mt-5">
         <div class="col-md-12 order-md-1">
             <h4 class="mb-3">Billing address</h4>
@@ -160,9 +163,8 @@
                     </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-cart btn-lg btn-block" style="background-color: #8E2A36; color: #fff"
-                        type="submit">Continue
-                    to checkout
+                <button class="btn btn-cart btn-lg btn-block btn-color" type="submit">
+                    Continue to checkout
                 </button>
                 @if(session('message'))
                     <div class="alert alert-info mt-5">
@@ -172,17 +174,6 @@
             </form>
         </div>
     </div>
+    {{--./Billing address--}}
+
 </div>
-<style>
-    .row input:focus,
-    .custom-select:focus {
-        border-color: #8E2A36;
-        box-shadow: inherit;
-    }
-
-    .container-margin-checkout {
-        margin-top: 7rem;
-        margin-bottom: 4rem;
-    }
-
-</style>

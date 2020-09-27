@@ -1924,6 +1924,18 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "AboutUsComponent"
 });
@@ -1997,6 +2009,13 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -2409,32 +2428,20 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: "BlogReviewComponent"
 });
-
-/***/ }),
-
-/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!***************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \***************************************************************************************************************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-//
-//
-//
-//
-//
-//
-//
-//
-//
-//
-/* harmony default export */ __webpack_exports__["default"] = ({});
 
 /***/ }),
 
@@ -2447,6 +2454,28 @@ __webpack_require__.r(__webpack_exports__);
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 //
 //
 //
@@ -7188,7 +7217,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*Categories*/\nh5[data-v-1d24b8c6] {\n    color: grey;\n    opacity: 0.6;\n}\n\n/*./Categories*/\n\n/*Link*/\na[data-v-1d24b8c6] {\n    color: #000;\n}\na[data-v-1d24b8c6]:hover {\n    color: #8E2A36;\n}\n\n/*./Link*/\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*Categories*/\nh5[data-v-1d24b8c6] {\n    color: grey;\n    opacity: 0.6;\n}\n\n/*./Categories*/\n\n/*Link*/\na[data-v-1d24b8c6] {\n    color: #000;\n}\na[data-v-1d24b8c6]:hover {\n    color: #8E2A36;\n}\n\n/*./Link*/\n\n", ""]);
 
 // exports
 
@@ -7245,7 +7274,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.alert-dismissible[data-v-03cf16ff] {\n    padding-right: 7em;\n}\n", ""]);
+exports.push([module.i, "\n.alert-dismissible[data-v-03cf16ff] {\n    padding-right: 7em;\n}\n.btn-position[data-v-03cf16ff] {\n    position: relative;\n    left: 50%;\n    transform: translate(-50%);\n}\n@media only screen and (max-width: 700px) {\n.btn-position[data-v-03cf16ff] {\n        left: 0;\n        transform: translate(0);\n}\n}\n", ""]);
 
 // exports
 
@@ -38873,183 +38902,207 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c(
-      "div",
-      { staticClass: "container", staticStyle: { "margin-top": "6em" } },
-      [
-        _c("div", { staticClass: "row" }, [
-          _c("div", { staticClass: "col-4" }, [
-            _c("nav", [
-              _c("h5", { staticClass: "text-uppercase" }, [
-                _vm._v("Categories")
+    return _c("div", { staticClass: "container container-mt" }, [
+      _c("div", { staticClass: "row" }, [
+        _c("div", { staticClass: "col-4" }, [
+          _c("nav", [
+            _c("h5", { staticClass: "text-uppercase" }, [_vm._v("Categories")]),
+            _vm._v(" "),
+            _c("ul", { staticClass: "nav flex-column" }, [
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-uppercase font-weight-bold",
+                    attrs: {
+                      href: "./women",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Women\n                        "
+                    )
+                  ]
+                )
               ]),
               _vm._v(" "),
-              _c("ul", { staticClass: "nav flex-column" }, [
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-uppercase font-weight-bold",
-                      attrs: {
-                        href: "./women",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("Women\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link active text-lowercase",
-                      attrs: {
-                        href: "./women-dress",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("dress\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase",
-                      attrs: {
-                        href: "./women-blouses",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("blouses\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase active",
-                      attrs: {
-                        href: "./women-jeans",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("jeans\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-uppercase font-weight-bold",
-                      attrs: {
-                        href: "./men",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("Men\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase",
-                      attrs: {
-                        href: "./men-shirts",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("shirts\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase",
-                      attrs: {
-                        href: "./men-sweaters",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("sweaters\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase",
-                      attrs: {
-                        href: "./men-pants",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("pants\n                        ")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-uppercase font-weight-bold",
-                      attrs: {
-                        href: "./accessories",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("Accessories")]
-                  )
-                ]),
-                _vm._v(" "),
-                _c("li", { staticClass: "nav-item" }, [
-                  _c(
-                    "a",
-                    {
-                      staticClass: "nav-link text-lowercase",
-                      attrs: {
-                        href: "./accessories-sunglasses",
-                        "aria-label": "product categories"
-                      }
-                    },
-                    [_vm._v("Sunglasses")]
-                  )
-                ])
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link active text-lowercase",
+                    attrs: {
+                      href: "./women-dress",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            dress\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase",
+                    attrs: {
+                      href: "./women-blouses",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            blouses\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase active",
+                    attrs: {
+                      href: "./women-jeans",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            jeans\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-uppercase font-weight-bold",
+                    attrs: { href: "./men", "aria-label": "product categories" }
+                  },
+                  [_vm._v("Men\n                        ")]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase",
+                    attrs: {
+                      href: "./men-shirts",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            shirts\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase",
+                    attrs: {
+                      href: "./men-sweaters",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            sweaters\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase",
+                    attrs: {
+                      href: "./men-pants",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            pants\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-uppercase font-weight-bold",
+                    attrs: {
+                      href: "./accessories",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Accessories\n                        "
+                    )
+                  ]
+                )
+              ]),
+              _vm._v(" "),
+              _c("li", { staticClass: "nav-item" }, [
+                _c(
+                  "a",
+                  {
+                    staticClass: "nav-link text-lowercase",
+                    attrs: {
+                      href: "./accessories-sunglasses",
+                      "aria-label": "product categories"
+                    }
+                  },
+                  [
+                    _vm._v(
+                      "\n                            Sunglasses\n                        "
+                    )
+                  ]
+                )
               ])
             ])
+          ])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "col-8 mb-3" }, [
+          _c("h5", { staticClass: "text-uppercase mb-3 text-center" }, [
+            _vm._v("Our store")
           ]),
           _vm._v(" "),
-          _c("div", { staticClass: "col-8 mb-3" }, [
-            _c("h5", { staticClass: "text-uppercase mb-3 text-center" }, [
-              _vm._v("Our store")
-            ]),
-            _vm._v(" "),
-            _c("img", {
-              staticStyle: { width: "100%" },
-              attrs: {
-                src: "our-store-banners/1.png",
-                alt: "our store banners"
-              }
-            }),
-            _vm._v(" "),
-            _c("p", { staticClass: "p-3" }, [
-              _vm._v(
-                "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium beatae debitis\n                deserunt dolorem doloremque eum facilis nemo nobis optio praesentium, quis quod reiciendis tenetur\n                voluptates. Accusantium doloribus quod unde.\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, deserunt dignissimos dolorum\n                esse fuga id impedit ipsum laboriosam quae voluptate, voluptates? Architecto atque deserunt fuga\n                hic, minima natus ratione!\n            "
-              )
-            ])
+          _c("img", {
+            staticClass: "w-100",
+            attrs: { src: "our-store-banners/1.png", alt: "our store banners" }
+          }),
+          _vm._v(" "),
+          _c("p", { staticClass: "p-3" }, [
+            _vm._v(
+              "\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus accusantium beatae debitis\n                deserunt dolorem doloremque eum facilis nemo nobis optio praesentium, quis quod reiciendis tenetur\n                voluptates. Accusantium doloribus quod unde.\n                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab culpa, deserunt dignissimos dolorum\n                esse fuga id impedit ipsum laboriosam quae voluptate, voluptates? Architecto atque deserunt fuga\n                hic, minima natus ratione!\n            "
+            )
           ])
         ])
-      ]
-    )
+      ])
+    ])
   }
 ]
 render._withStripped = true
@@ -39075,7 +39128,7 @@ var render = function() {
   var _c = _vm._self._c || _h
   return _c(
     "div",
-    { staticClass: "container", staticStyle: { "margin-top": "6em" } },
+    { staticClass: "container container-mt" },
     [
       _vm._l(_vm.blogProducts, function(blogProduct) {
         return _c("div", [
@@ -39146,293 +39199,279 @@ var render = function() {
   var _vm = this
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
-  return _c(
-    "div",
-    { staticClass: "container", staticStyle: { "margin-top": "6em" } },
-    [
-      _c("div", { staticClass: "row" }, [
-        _vm._m(0),
-        _vm._v(" "),
-        _c("div", { staticClass: "col-9" }, [
-          _c(
-            "div",
-            { staticClass: "tab-content", attrs: { id: "v-pills-tabContent" } },
-            [
-              _c(
-                "div",
-                {
-                  staticClass: "tab-pane fade show active",
-                  attrs: {
-                    id: "v-pills-home",
-                    role: "tabpanel",
-                    "aria-labelledby": "v-pills-home-tab"
-                  }
-                },
-                [
-                  _vm._m(1),
-                  _vm._v(" "),
-                  _c(
-                    "form",
-                    {
-                      attrs: {
-                        action: "./api/blog-commentary",
-                        method: "post",
-                        enctype: "multipart/form-data"
-                      },
-                      on: {
-                        submit: function($event) {
-                          $event.preventDefault()
-                          return _vm.blogCommentUsers()
-                        }
-                      }
+  return _c("div", { staticClass: "container container-mt" }, [
+    _c("div", { staticClass: "row" }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-9" }, [
+        _c(
+          "div",
+          { staticClass: "tab-content", attrs: { id: "v-pills-tabContent" } },
+          [
+            _c(
+              "div",
+              {
+                staticClass: "tab-pane fade show active",
+                attrs: {
+                  id: "v-pills-home",
+                  role: "tabpanel",
+                  "aria-labelledby": "v-pills-home-tab"
+                }
+              },
+              [
+                _vm._m(1),
+                _vm._v(" "),
+                _c(
+                  "form",
+                  {
+                    attrs: {
+                      action: "./api/blog-commentary",
+                      method: "post",
+                      enctype: "multipart/form-data"
                     },
-                    [
-                      _c("div", { staticClass: "card" }, [
-                        _c(
-                          "div",
-                          {
-                            staticClass:
-                              "card-header text-uppercase text-center"
-                          },
-                          [_vm._v("Add comment")]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "card-body" }, [
-                          _c("div", { staticClass: "form-group" }, [
-                            _c(
-                              "label",
-                              {
-                                staticClass: "requiredInput",
-                                attrs: { for: "author" }
-                              },
-                              [_vm._v("Author: ")]
-                            ),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.author_name,
-                                  expression: "author_name"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "text", id: "author" },
-                              domProps: { value: _vm.author_name },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.author_name = $event.target.value
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "form-group" }, [
-                            _c(
-                              "label",
-                              {
-                                staticClass: "requiredInput",
-                                attrs: { for: "author_email" }
-                              },
-                              [_vm._v("Email address: ")]
-                            ),
-                            _vm._v(" "),
-                            _c("input", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.author_email,
-                                  expression: "author_email"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: { type: "email", id: "author_email" },
-                              domProps: { value: _vm.author_email },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.author_email = $event.target.value
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
-                          _c("div", { staticClass: "form-group" }, [
-                            _c("label", { attrs: { for: "comment" } }, [
-                              _vm._v("Comment")
-                            ]),
-                            _vm._v(" "),
-                            _c("textarea", {
-                              directives: [
-                                {
-                                  name: "model",
-                                  rawName: "v-model",
-                                  value: _vm.author_comment,
-                                  expression: "author_comment"
-                                }
-                              ],
-                              staticClass: "form-control",
-                              attrs: {
-                                type: "input",
-                                id: "comment",
-                                rows: "3"
-                              },
-                              domProps: { value: _vm.author_comment },
-                              on: {
-                                input: function($event) {
-                                  if ($event.target.composing) {
-                                    return
-                                  }
-                                  _vm.author_comment = $event.target.value
-                                }
-                              }
-                            })
-                          ]),
-                          _vm._v(" "),
+                    on: {
+                      submit: function($event) {
+                        $event.preventDefault()
+                        return _vm.blogCommentUsers()
+                      }
+                    }
+                  },
+                  [
+                    _c("div", { staticClass: "card" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "card-header text-uppercase text-center"
+                        },
+                        [_vm._v("Add comment")]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c("div", { staticClass: "form-group" }, [
                           _c(
-                            "button",
+                            "label",
                             {
-                              staticClass: "btn d-block ml-auto mr-auto",
-                              staticStyle: {
-                                "background-color": "#8E2A36",
-                                color: "#fff"
-                              },
-                              attrs: { type: "submit" }
+                              staticClass: "requiredInput",
+                              attrs: { for: "author" }
                             },
-                            [
-                              _vm._v(
-                                "Add comment\n                                "
-                              )
-                            ]
-                          )
-                        ])
-                      ])
-                    ]
-                  ),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "form-group" }, [
-                    _c(
-                      "div",
-                      { staticClass: "form-group" },
-                      [
-                        _vm._l(_vm.errors, function(commentError) {
-                          return _c(
-                            "div",
-                            {
-                              staticClass:
-                                "alert alert-danger alert-dismissible fade show",
-                              attrs: { role: "alert" }
-                            },
-                            [
-                              _vm._l(commentError, function(elem) {
-                                return _c("div", [
-                                  _vm._v(
-                                    "\n                                    " +
-                                      _vm._s(elem) +
-                                      "\n                                "
-                                  )
-                                ])
-                              }),
-                              _vm._v(" "),
-                              _vm._m(2, true)
-                            ],
-                            2
-                          )
-                        }),
-                        _vm._v(" "),
-                        _vm.commentSuccess
-                          ? _c(
-                              "div",
+                            [_vm._v("Author: ")]
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
                               {
-                                staticClass:
-                                  "alert alert-success alert-dismissible fade show",
-                                attrs: { role: "alert" }
-                              },
-                              [
-                                _vm._v(
-                                  "\n                                You have successfully commentaries!\n                                "
-                                ),
-                                _vm._m(3)
-                              ]
-                            )
-                          : _vm._e()
-                      ],
-                      2
-                    )
-                  ]),
-                  _vm._v(" "),
-                  _c("div", { staticClass: "row" }, [
-                    _c("div", { staticClass: "col" }, [
-                      _c("div", { staticClass: "card" }, [
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.author_name,
+                                expression: "author_name"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: { type: "text", id: "author" },
+                            domProps: { value: _vm.author_name },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.author_name = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c(
+                            "label",
+                            {
+                              staticClass: "requiredInput",
+                              attrs: { for: "author_email" }
+                            },
+                            [_vm._v("Email address: ")]
+                          ),
+                          _vm._v(" "),
+                          _c("input", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.author_email,
+                                expression: "author_email"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: { type: "email", id: "author_email" },
+                            domProps: { value: _vm.author_email },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.author_email = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
+                        _c("div", { staticClass: "form-group" }, [
+                          _c("label", { attrs: { for: "comment" } }, [
+                            _vm._v("Comment")
+                          ]),
+                          _vm._v(" "),
+                          _c("textarea", {
+                            directives: [
+                              {
+                                name: "model",
+                                rawName: "v-model",
+                                value: _vm.author_comment,
+                                expression: "author_comment"
+                              }
+                            ],
+                            staticClass: "form-control",
+                            attrs: { type: "input", id: "comment", rows: "3" },
+                            domProps: { value: _vm.author_comment },
+                            on: {
+                              input: function($event) {
+                                if ($event.target.composing) {
+                                  return
+                                }
+                                _vm.author_comment = $event.target.value
+                              }
+                            }
+                          })
+                        ]),
+                        _vm._v(" "),
                         _c(
-                          "div",
+                          "button",
                           {
                             staticClass:
-                              "card-header text-uppercase text-center"
+                              "btn btn-color d-block ml-auto mr-auto",
+                            attrs: { type: "submit" }
                           },
                           [
                             _vm._v(
-                              "\n                                    Your comment\n                                "
+                              "Add comment\n                                "
                             )
                           ]
-                        ),
-                        _vm._v(" "),
-                        _c("div", { staticClass: "card-body" }, [
-                          _c(
-                            "ul",
-                            { staticClass: "list-unstyled" },
-                            _vm._l(_vm.blogCommentaries, function(blogComment) {
-                              return _c(
-                                "li",
-                                { staticClass: "text-center p-5" },
-                                [
-                                  _c("h4", { staticClass: "d-inline" }, [
-                                    _vm._v(
-                                      "Author: " +
-                                        _vm._s(blogComment.author_name)
-                                    )
-                                  ]),
-                                  _vm._v(" "),
-                                  _c("br"),
-                                  _vm._v(" "),
-                                  _c("h4", { staticClass: "d-inline" }, [
-                                    _vm._v("Comment:")
-                                  ]),
-                                  _vm._v(
-                                    " " +
-                                      _vm._s(blogComment.author_comment) +
-                                      "\n                                            "
-                                  ),
-                                  _vm._m(4, true),
-                                  _vm._v(
-                                    "\n                                            " +
-                                      _vm._s(blogComment.created_at) +
-                                      "\n                                        "
-                                  )
-                                ]
-                              )
+                        )
+                      ])
+                    ])
+                  ]
+                ),
+                _vm._v(" "),
+                _c("div", { staticClass: "form-group" }, [
+                  _c(
+                    "div",
+                    { staticClass: "form-group" },
+                    [
+                      _vm._l(_vm.errors, function(commentError) {
+                        return _c(
+                          "div",
+                          {
+                            staticClass:
+                              "alert alert-danger alert-dismissible fade show",
+                            attrs: { role: "alert" }
+                          },
+                          [
+                            _vm._l(commentError, function(elem) {
+                              return _c("div", [
+                                _vm._v(
+                                  "\n                                    " +
+                                    _vm._s(elem) +
+                                    "\n                                "
+                                )
+                              ])
                             }),
-                            0
+                            _vm._v(" "),
+                            _vm._m(2, true)
+                          ],
+                          2
+                        )
+                      }),
+                      _vm._v(" "),
+                      _vm.commentSuccess
+                        ? _c(
+                            "div",
+                            {
+                              staticClass:
+                                "alert alert-success alert-dismissible fade show",
+                              attrs: { role: "alert" }
+                            },
+                            [
+                              _vm._v(
+                                "\n                                You have successfully commentaries!\n                                "
+                              ),
+                              _vm._m(3)
+                            ]
                           )
-                        ])
+                        : _vm._e()
+                    ],
+                    2
+                  )
+                ]),
+                _vm._v(" "),
+                _c("div", { staticClass: "row" }, [
+                  _c("div", { staticClass: "col" }, [
+                    _c("div", { staticClass: "card" }, [
+                      _c(
+                        "div",
+                        {
+                          staticClass: "card-header text-uppercase text-center"
+                        },
+                        [
+                          _vm._v(
+                            "\n                                    Your comment\n                                "
+                          )
+                        ]
+                      ),
+                      _vm._v(" "),
+                      _c("div", { staticClass: "card-body" }, [
+                        _c(
+                          "ul",
+                          { staticClass: "list-unstyled" },
+                          _vm._l(_vm.blogCommentaries, function(blogComment) {
+                            return _c(
+                              "li",
+                              { staticClass: "text-center p-5" },
+                              [
+                                _c("h4", { staticClass: "d-inline" }, [
+                                  _vm._v(
+                                    "Author: " + _vm._s(blogComment.author_name)
+                                  )
+                                ]),
+                                _vm._v(" "),
+                                _c("br"),
+                                _vm._v(" "),
+                                _c("h4", { staticClass: "d-inline" }, [
+                                  _vm._v("Comment:")
+                                ]),
+                                _vm._v(
+                                  " " +
+                                    _vm._s(blogComment.author_comment) +
+                                    "\n                                            "
+                                ),
+                                _vm._m(4, true),
+                                _vm._v(
+                                  "\n                                            " +
+                                    _vm._s(blogComment.created_at) +
+                                    "\n                                        "
+                                )
+                              ]
+                            )
+                          }),
+                          0
+                        )
                       ])
                     ])
                   ])
-                ]
-              )
-            ]
-          )
-        ])
+                ])
+              ]
+            )
+          ]
+        )
       ])
-    ]
-  )
+    ])
+  ])
 }
 var staticRenderFns = [
   function() {
@@ -39463,10 +39502,11 @@ var staticRenderFns = [
                 href: "#v-pills-profile",
                 role: "tab",
                 "aria-controls": "v-pills-profile",
-                "aria-selected": "false"
+                "aria-selected": "false",
+                "aria-label": "Profile"
               }
             },
-            [_vm._v("Profile")]
+            [_vm._v("\n                    Profile\n                ")]
           ),
           _vm._v(" "),
           _c(
@@ -39479,10 +39519,11 @@ var staticRenderFns = [
                 href: "#v-pills-messages",
                 role: "tab",
                 "aria-controls": "v-pills-messages",
-                "aria-selected": "false"
+                "aria-selected": "false",
+                "aria-label": "Messages"
               }
             },
-            [_vm._v("Messages")]
+            [_vm._v("\n                    Messages\n                ")]
           ),
           _vm._v(" "),
           _c(
@@ -39495,10 +39536,11 @@ var staticRenderFns = [
                 href: "#v-pills-settings",
                 role: "tab",
                 "aria-controls": "v-pills-settings",
-                "aria-selected": "false"
+                "aria-selected": "false",
+                "aria-label": "Settings"
               }
             },
-            [_vm._v("Settings")]
+            [_vm._v("\n                    Settings\n                ")]
           ),
           _vm._v(" "),
           _c(
@@ -39511,15 +39553,19 @@ var staticRenderFns = [
                 href: "#v-pills-settings",
                 role: "tab",
                 "aria-controls": "v-pills-fashion",
-                "aria-selected": "false"
+                "aria-selected": "false",
+                "aria-label": "Fashion"
               }
             },
-            [_vm._v("Fashion")]
+            [_vm._v("\n                    Fashion\n                ")]
           ),
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "text-decoration-none", attrs: { href: "#" } },
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#", "aria-label": "Feature products" }
+            },
             [
               _c("h5", { staticClass: "text-uppercase pt-3" }, [
                 _vm._v("Feature products")
@@ -39529,7 +39575,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "text-decoration-none", attrs: { href: "#" } },
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#", "aria-label": "Scarf" }
+            },
             [
               _c("img", {
                 staticClass: "featureProductImg",
@@ -39553,7 +39602,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "text-decoration-none", attrs: { href: "#" } },
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#", "aria-label": "oft blouse" }
+            },
             [
               _c("img", {
                 staticClass: "featureProductImg",
@@ -39577,7 +39629,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "text-decoration-none", attrs: { href: "#" } },
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#", "aria-label": "High heels" }
+            },
             [
               _c("img", {
                 staticClass: "featureProductImg",
@@ -39601,7 +39656,10 @@ var staticRenderFns = [
           _vm._v(" "),
           _c(
             "a",
-            { staticClass: "text-decoration-none", attrs: { href: "#" } },
+            {
+              staticClass: "text-decoration-none",
+              attrs: { href: "#", "aria-label": "Hot dress" }
+            },
             [
               _c("img", {
                 staticClass: "featureProductImg",
@@ -39781,7 +39839,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("p", { staticClass: "blogArticleText" }, [
                       _vm._v(
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit.\n                                        A\n                                        accusamus\n                                        atque, cupiditate deleniti dolor dolores ea enim, esse inventore iure\n                                        laudantium\n                                        libero\n                                        magni minus nemo quas quidem sequi voluptate voluptates?"
+                        "\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit. A accusamus atque, cupiditate deleniti dolor dolores ea enim, esse\n                                        inventore iure\n                                        laudantium\n                                        libero\n                                        magni minus nemo quas quidem sequi voluptate voluptates?\n                                    "
                       )
                     ])
                   ]),
@@ -39797,7 +39855,11 @@ var staticRenderFns = [
                         "aria-label": "link blog=information"
                       }
                     },
-                    [_vm._v("Read\n                                    more")]
+                    [
+                      _vm._v(
+                        "\n                                    Read more\n                                "
+                      )
+                    ]
                   )
                 ]),
                 _vm._v(" "),
@@ -39831,14 +39893,16 @@ var staticRenderFns = [
                       },
                       [
                         _c("h5", { staticClass: "text-uppercase" }, [
-                          _vm._v("The colors of summer in the fall")
+                          _vm._v(
+                            "\n                                            The colors of summer in the fall"
+                          )
                         ])
                       ]
                     ),
                     _vm._v(" "),
                     _c("p", { staticClass: "blogArticleText" }, [
                       _vm._v(
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit.\n                                        Consectetur\n                                        consequuntur cum debitis exercitationem explicabo magni quidem unde!\n                                        Accusamus\n                                        consectetur\n                                        numquam omnis quae repellendus, sint vel veniam. Earum nam natus\n                                        quaerat!"
+                        "\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit.\n                                        Consectetur\n                                        consequuntur cum debitis exercitationem explicabo magni quidem unde!\n                                        Accusamus\n                                        consectetur\n                                        numquam omnis quae repellendus, sint vel veniam. Earum nam natus\n                                        quaerat!\n                                    "
                       )
                     ])
                   ]),
@@ -39854,7 +39918,11 @@ var staticRenderFns = [
                         "aria-label": "link blog=information"
                       }
                     },
-                    [_vm._v("Read\n                                    more")]
+                    [
+                      _vm._v(
+                        "\n                                    Read more\n                                "
+                      )
+                    ]
                   )
                 ]),
                 _vm._v(" "),
@@ -39895,7 +39963,7 @@ var staticRenderFns = [
                     _vm._v(" "),
                     _c("p", { staticClass: "blogArticleText" }, [
                       _vm._v(
-                        "Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit.\n                                        Consectetur\n                                        consequuntur cum debitis exercitationem explicabo magni quidem unde!\n                                        Accusamus\n                                        consectetur\n                                        numquam omnis quae repellendus, sint vel veniam. Earum nam natus\n                                        quaerat!"
+                        "\n                                        Lorem ipsum dolor sit amet, consectetur adipisicing\n                                        elit.\n                                        Consectetur\n                                        consequuntur cum debitis exercitationem explicabo magni quidem unde!\n                                        Accusamus\n                                        consectetur\n                                        numquam omnis quae repellendus, sint vel veniam. Earum nam natus\n                                        quaerat!\n                                    "
                       )
                     ])
                   ]),
@@ -39911,7 +39979,11 @@ var staticRenderFns = [
                         "aria-label": "link blog=information"
                       }
                     },
-                    [_vm._v("Read\n                                    more")]
+                    [
+                      _vm._v(
+                        "\n                                    Read more\n                                "
+                      )
+                    ]
                   )
                 ])
               ]),
@@ -40082,30 +40154,6 @@ render._withStripped = true
 
 /***/ }),
 
-/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true&":
-/*!*******************************************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true& ***!
-  \*******************************************************************************************************************************************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
-/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
-var render = function() {
-  var _vm = this
-  var _h = _vm.$createElement
-  var _c = _vm._self._c || _h
-  return _c("div")
-}
-var staticRenderFns = []
-render._withStripped = true
-
-
-
-/***/ }),
-
 /***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/FooterSubscriberComponent.vue?vue&type=template&id=03cf16ff&scoped=true&":
 /*!****************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/FooterSubscriberComponent.vue?vue&type=template&id=03cf16ff&scoped=true& ***!
@@ -40126,27 +40174,16 @@ var render = function() {
     { staticClass: "page-footer font-small bg-dark text-white pt-5" },
     [
       _c("div", { staticClass: "container text-center text-md-left" }, [
+        _vm._m(0),
+        _vm._v(" "),
         _c("div", { staticClass: "row" }, [
-          _vm._m(0),
-          _vm._v(" "),
-          _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
-          _vm._v(" "),
-          _vm._m(1),
-          _vm._v(" "),
-          _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
-          _vm._v(" "),
-          _vm._m(2),
-          _vm._v(" "),
-          _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
-          _vm._v(" "),
-          _vm._m(3),
-          _vm._v(" "),
-          _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
-          _vm._v(" "),
-          _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
+          _c("div", { staticClass: "col ml-1 mr-1" }, [
             _c(
               "h5",
-              { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" },
+              {
+                staticClass:
+                  "font-weight-bold text-uppercase mt-3 mb-4 text-center"
+              },
               [_vm._v("Bulletin")]
             ),
             _vm._v(" "),
@@ -40167,9 +40204,14 @@ var render = function() {
               },
               [
                 _c("div", { staticClass: "form-group" }, [
-                  _c("label", { attrs: { for: "inputEmail1" } }, [
-                    _vm._v("Email address")
-                  ]),
+                  _c(
+                    "label",
+                    {
+                      staticClass: "text-center d-block",
+                      attrs: { for: "inputEmail1" }
+                    },
+                    [_vm._v("Email address")]
+                  ),
                   _vm._v(" "),
                   _c("input", {
                     directives: [
@@ -40201,12 +40243,12 @@ var render = function() {
                   _c(
                     "small",
                     {
-                      staticClass: "form-text text-muted",
+                      staticClass: "form-text text-muted text-center",
                       attrs: { id: "emailHelp" }
                     },
                     [
                       _vm._v(
-                        "We'll never share your email with anyone\n                            else.\n                        "
+                        "\n                            We'll never share your email with anyone else.\n                        "
                       )
                     ]
                   )
@@ -40215,14 +40257,14 @@ var render = function() {
                 _c(
                   "button",
                   {
-                    staticClass: "btn",
-                    staticStyle: {
-                      "background-color": "#8E2A36",
-                      color: "#fff"
-                    },
+                    staticClass: "btn btn-color btn-position",
                     attrs: { type: "submit" }
                   },
-                  [_vm._v("Subscribe\n                    ")]
+                  [
+                    _vm._v(
+                      "\n                        Subscribe\n                    "
+                    )
+                  ]
                 )
               ]
             ),
@@ -40242,7 +40284,7 @@ var render = function() {
                           _vm._s(_vm.errors.email[0]) +
                           "\n                        "
                       ),
-                      _vm._m(4)
+                      _vm._m(1)
                     ]
                   )
                 : _vm._e(),
@@ -40259,7 +40301,7 @@ var render = function() {
                       _vm._v(
                         "\n                        You have successfully subscribed\n                        "
                       ),
-                      _vm._m(5)
+                      _vm._m(2)
                     ]
                   )
                 : _vm._e()
@@ -40270,13 +40312,13 @@ var render = function() {
       _vm._v(" "),
       _c("hr"),
       _vm._v(" "),
-      _vm._m(6),
+      _vm._m(3),
       _vm._v(" "),
       _c("hr"),
       _vm._v(" "),
-      _vm._m(7),
+      _vm._m(4),
       _vm._v(" "),
-      _vm._m(8)
+      _vm._m(5)
     ]
   )
 }
@@ -40285,173 +40327,191 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-4 ml-1 mr-1" }, [
-      _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
-        _vm._v("Webstote")
-      ]),
-      _vm._v(" "),
-      _c("p", [
-        _vm._v(
-          "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate, voluptatum. Amet\n                    debitis\n                    expedita natus possimus quidem recusandae, sunt temporibus. Architecto atque eveniet\n                    exercitationem\n                    fugit itaque quasi sed velit voluptatem?"
-        )
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
-      _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
-        _vm._v("Information")
-      ]),
-      _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled" }, [
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "./about-us", "aria-label": "link About us" }
-            },
-            [_vm._v("About us")]
-          )
+    return _c("div", { staticClass: "row" }, [
+      _c("div", { staticClass: "col-md-4 ml-1 mr-1" }, [
+        _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
+          _vm._v("Webstote")
         ]),
         _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "link Delivery Information" }
-            },
-            [_vm._v("Delivery\n                            Information")]
-          )
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "link Privacy Policy" }
-            },
-            [_vm._v("Privacy Policy")]
-          )
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "link Terms & Conditions" }
-            },
-            [_vm._v("Terms & Conditions")]
+        _c("p", [
+          _vm._v(
+            "\n                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam, voluptate, voluptatum. Amet\n                    debitis\n                    expedita natus possimus quidem recusandae, sunt temporibus. Architecto atque eveniet\n                    exercitationem\n                    fugit itaque quasi sed velit voluptatem?\n                "
           )
         ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
-      _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
-        _vm._v("Contact Us")
       ]),
       _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled" }, [
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "addres" }
-            },
-            [
-              _c("i", { staticClass: "fas fa-map-marker-alt" }),
-              _vm._v(
-                "Away\n                            Bahams,Shirley House\n                            #50 Shirley Street\n                            P. O. Box N-532\n                            Nassau, N.P., The Bahamas"
-              )
-            ]
-          )
+      _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-3 ml-1 mr-1" }, [
+        _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
+          _vm._v("Information")
         ]),
         _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "phone" }
-            },
-            [
-              _c("i", { staticClass: "mr-1 fas fa-phone-volume" }),
-              _vm._v("089\n                            772 2275")
-            ]
-          )
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "meil" }
-            },
-            [
-              _c("i", { staticClass: "mr-1 far fa-envelope-open" }),
-              _vm._v("officedesislava@gmail.com")
-            ]
-          )
+        _c("ul", { staticClass: "list-unstyled" }, [
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "./about-us", "aria-label": "link About us" }
+              },
+              [
+                _vm._v(
+                  "\n                            About us\n                        "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "link Delivery Information" }
+              },
+              [
+                _vm._v(
+                  "\n                            Delivery\n                            Information\n                        "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "link Privacy Policy" }
+              },
+              [
+                _vm._v(
+                  "\n                            Privacy Policy\n                        "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "link Terms & Conditions" }
+              },
+              [
+                _vm._v(
+                  "\n                            Terms & Conditions\n                        "
+                )
+              ]
+            )
+          ])
         ])
-      ])
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
-      _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
-        _vm._v("Partnership")
       ]),
       _vm._v(" "),
-      _c("ul", { staticClass: "list-unstyled" }, [
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "partners service" }
-            },
-            [_vm._v("Dropshipping")]
-          )
+      _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
+        _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
+          _vm._v("Contact Us")
         ]),
         _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "partners service" }
-            },
-            [_vm._v("Affiliate")]
-          )
-        ]),
-        _vm._v(" "),
-        _c("li", [
-          _c(
-            "a",
-            {
-              staticClass: "text-white",
-              attrs: { href: "#", "aria-label": "partners service" }
-            },
-            [_vm._v("Get wholesale")]
-          )
+        _c("ul", { staticClass: "list-unstyled" }, [
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "addres" }
+              },
+              [
+                _c("i", { staticClass: "fas fa-map-marker-alt" }),
+                _vm._v(
+                  "Away\n                            Bahams,Shirley House\n                            #50 Shirley Street\n                            P. O. Box N-532\n                            Nassau, N.P., The Bahamas\n                        "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "phone" }
+              },
+              [
+                _c("i", { staticClass: "mr-1 fas fa-phone-volume" }),
+                _vm._v(
+                  "\n                            089 772 2275\n                        "
+                )
+              ]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "meil" }
+              },
+              [
+                _c("i", { staticClass: "mr-1 far fa-envelope-open" }),
+                _vm._v(
+                  "\n                            desislava.georgieva001@gmail.com\n                        "
+                )
+              ]
+            )
+          ])
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("hr", { staticClass: "clearfix w-100 d-md-none" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "col-md-2 ml-1 mr-1" }, [
+        _c("h5", { staticClass: "font-weight-bold text-uppercase mt-3 mb-4" }, [
+          _vm._v("Partnership")
+        ]),
+        _vm._v(" "),
+        _c("ul", { staticClass: "list-unstyled" }, [
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "partners service" }
+              },
+              [_vm._v("Dropshipping")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "partners service" }
+              },
+              [_vm._v("Affiliate")]
+            )
+          ]),
+          _vm._v(" "),
+          _c("li", [
+            _c(
+              "a",
+              {
+                staticClass: "text-white",
+                attrs: { href: "#", "aria-label": "partners service" }
+              },
+              [_vm._v("Get wholesale")]
+            )
+          ])
+        ])
+      ]),
+      _vm._v(" "),
+      _c("hr", { staticClass: "clearfix w-100 d-md-none" })
     ])
   },
   function() {
@@ -40504,9 +40564,11 @@ var staticRenderFns = [
           _c(
             "a",
             {
-              staticClass: "btn",
-              staticStyle: { "background-color": "#8E2A36", color: "#fff" },
-              attrs: { href: "./register", "aria-label": "register btn" }
+              staticClass: "btn btn-color",
+              attrs: {
+                href: "./register",
+                "aria-label": "register btn btn-color"
+              }
             },
             [_vm._v("Register!")]
           )
@@ -40580,7 +40642,7 @@ var staticRenderFns = [
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
     return _c("div", { staticClass: "footer-copyright text-center py-3" }, [
-      _vm._v("© 2019 Copyright:\n        "),
+      _vm._v("©Copyright:\n        "),
       _c(
         "a",
         {
@@ -52864,8 +52926,8 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
  */
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
+// Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 
-Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component('blog-article-component', __webpack_require__(/*! ./components/BlogArticleComponent */ "./resources/js/components/BlogArticleComponent.vue")["default"]);
 Vue.component('blog-review-component', __webpack_require__(/*! ./components/BlogReviewComponent */ "./resources/js/components/BlogReviewComponent.vue")["default"]);
 Vue.component('blog-article-information', __webpack_require__(/*! ./components/BlogArticleInformationComponent */ "./resources/js/components/BlogArticleInformationComponent.vue")["default"]);
@@ -53270,75 +53332,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogReviewComponent_vue_vue_type_template_id_4e807ce8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_BlogReviewComponent_vue_vue_type_template_id_4e807ce8_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
-
-
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue":
-/*!******************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue ***!
-  \******************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true& */ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true&");
-/* harmony import */ var _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ExampleComponent.vue?vue&type=script&lang=js& */ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport *//* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
-
-
-
-
-
-/* normalize component */
-
-var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_2__["default"])(
-  _ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
-  _ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
-  false,
-  null,
-  "299e239e",
-  null
-  
-)
-
-/* hot reload */
-if (false) { var api; }
-component.options.__file = "resources/js/components/ExampleComponent.vue"
-/* harmony default export */ __webpack_exports__["default"] = (component.exports);
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&":
-/*!*******************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js& ***!
-  \*******************************************************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=script&lang=js&");
-/* empty/unused harmony star reexport */ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__["default"]); 
-
-/***/ }),
-
-/***/ "./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true&":
-/*!*************************************************************************************************!*\
-  !*** ./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true& ***!
-  \*************************************************************************************************/
-/*! exports provided: render, staticRenderFns */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/ExampleComponent.vue?vue&type=template&id=299e239e&scoped=true&");
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
-
-/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_ExampleComponent_vue_vue_type_template_id_299e239e_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

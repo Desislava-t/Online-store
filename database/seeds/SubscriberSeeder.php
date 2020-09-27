@@ -11,14 +11,14 @@ class SubscriberSeeder extends Seeder
      */
     public function run()
     {
-//        DB::table('subscribes')->insert([
-//            [
-//                'email' => uniqid('test@abv.bg'),
-//            ],
-//            [
-//                'email' => uniqid('test1@abv.bg'),
-//            ],
-//
-//        ]);
+        DB::table('subscribes')->insert([
+            [
+                'email' => uniqid('test@abv.bg'),
+            ],
+            [
+                'email' => uniqid('test1@abv.bg'),
+            ],
+
+        ]);
     }
 }

@@ -1,4 +1,4 @@
-<div class="container" style="margin-top: 8rem">
+<div class="container homePage">
     <div class="row justify-content-center">
         <div class="col-md-8">
             <div class="card">

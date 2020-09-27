@@ -1,15 +1,14 @@
 @extends('layouts.app')
 
 @section('meta')
-    <meta name="description" content="Demo online magazine, Subscriber admin page, front-end, Php Laravel 6, CSS">
-    <meta name="author" content="Desislava Georgieva, email : officedesislava@gmail.com, phone: 0897 722 275 ">
+    <meta name="description" content="Demo online magazine, Subscriber admin page, HTML, Php Laravel 6, CSS">
 @endsection
 
 @section('title-page','Subscriber')
 
 @section('content')
     <div class="container">
-        <table class="table table-striped" style="margin-top: 6em">
+        <table class="table table-striped container-mt">
             <tr>
                 <th>Id</th>
                 <th>Email</th>

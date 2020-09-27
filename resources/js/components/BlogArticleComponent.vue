@@ -1,5 +1,5 @@
 <template>
-    <div class="container" style="margin-top: 6em">
+    <div class="container container-mt">
         <div v-for="blogProduct in blogProducts">
             <div class="content-blog mt-5 mb-2">
                 <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">

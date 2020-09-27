@@ -1,6 +1,6 @@
 <template>
 
-    <div class="container" style="margin-top: 6em">
+    <div class="container container-mt">
 
         <!--Blog nav-->
         <div class="row">
@@ -9,24 +9,32 @@
                     <h5 class="text-uppercase">Categories</h5>
                     <a class="nav-link text-decoration-none" id="v-pills-profile-tab" data-toggle="pill"
                        href="#v-pills-profile" role="tab"
-                       aria-controls="v-pills-profile" aria-selected="false">Profile</a>
+                       aria-controls="v-pills-profile" aria-selected="false" aria-label="Profile" >
+                        Profile
+                    </a>
                     <a class="nav-link text-decoration-none" id="v-pills-messages-tab" data-toggle="pill"
                        href="#v-pills-messages" role="tab"
-                       aria-controls="v-pills-messages" aria-selected="false">Messages</a>
+                       aria-controls="v-pills-messages" aria-selected="false" aria-label="Messages">
+                        Messages
+                    </a>
                     <a class="nav-link text-decoration-none" id="v-pills-settings-tab" data-toggle="pill"
                        href="#v-pills-settings" role="tab"
-                       aria-controls="v-pills-settings" aria-selected="false">Settings</a>
+                       aria-controls="v-pills-settings" aria-selected="false" aria-label="Settings">
+                        Settings
+                    </a>
                     <a class="nav-link text-decoration-none" id="v-pills-fashion-tab" data-toggle="pill"
                        href="#v-pills-settings" role="tab"
-                       aria-controls="v-pills-fashion" aria-selected="false">Fashion</a>
+                       aria-controls="v-pills-fashion" aria-selected="false" aria-label="Fashion">
+                        Fashion
+                    </a>
                     <!--./Blog nav-->
 
                     <!--Feature product-->
-                    <a href="#" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none" aria-label="Feature products">
                         <h5 class="text-uppercase pt-3">Feature products</h5>
                     </a>
 
-                    <a href="#" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none" aria-label="Scarf">
                         <img src="feature-products/1.jpg" class="featureProductImg" alt="Feature products">
                         <ul class="list-unstyled borderFeatureProduct">
                             <li>Scarf</li>
@@ -37,7 +45,7 @@
                         <li>15 лв.</li>
                     </ul>
 
-                    <a href="#" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none" aria-label="oft blouse">
                         <img src="feature-products/2.jpg" class="featureProductImg" alt="Feature products">
                         <ul class="list-unstyled borderFeatureProduct">
                             <li>Soft blouse</li>
@@ -48,7 +56,7 @@
                         <li>40 лв.</li>
                     </ul>
 
-                    <a href="#" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none" aria-label="High heels">
                         <img src="feature-products/3.jpg" class="featureProductImg" alt="Feature products">
                         <ul class="list-unstyled borderFeatureProduct">
                             <li>High heels</li>
@@ -59,7 +67,7 @@
                         <li>150 лв.</li>
                     </ul>
 
-                    <a href="#" class="text-decoration-none">
+                    <a href="#" class="text-decoration-none" aria-label="Hot dress">
                         <img src="feature-products/4.jpg" class="featureProductImg" alt="Feature products">
                         <ul class="list-unstyled borderFeatureProduct">
                             <li>Hot dress</li>
@@ -118,8 +126,7 @@
                                                   v-model="author_comment"
                                                   rows="3"></textarea>
                                     </div>
-                                    <button type="submit" class="btn d-block ml-auto mr-auto"
-                                            style="background-color: #8E2A36;color: #fff">Add comment
+                                    <button type="submit" class="btn btn-color d-block ml-auto mr-auto">Add comment
                                     </button>
                                 </div>
                             </div>

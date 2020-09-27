@@ -2,14 +2,13 @@
 
 @section('meta')
     <meta name="description"
-          content="Demo online magazine, Subscriber admin page edit/update , front-end, Php Laravel 6, CSS">
-    <meta name="author" content="Desislava Georgieva, email : officedesislava@gmail.com, phone: 0897 722 275 ">
+          content="Demo online magazine, Subscriber admin page edit/update , HTML, Php Laravel 6, CSS">
 @endsection
 
 @section('title-page','Subscriber-edit-update')
 
 @section('content')
-    <div class="container" style="margin-top: 6em">
+    <div class="container container-mt">
         <div class="card">
             <h3>Subscriber edit-update: {{ $subscriber->email }}</h3>
         </div>
@@ -25,7 +24,8 @@
                         else.
                     </small>
                 </div>
-                <button type="submit" class="btn" style="background-color: #8E2A36;color: #fff">Update
+                <button type="submit" class="btn btn-color">
+                    Update
                 </button>
 
             </form>

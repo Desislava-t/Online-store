@@ -15,19 +15,21 @@
                                         <span class="text-uppercase">December, 2019</span>
                                         <a class="text-decoration-none" href="./blog-information" target="_blank"
                                            aria-label="link blog=information">
-                                            <h5 class="text-uppercase">The 90s are back</h5></a>
-                                        <p class="blogArticleText">Lorem ipsum dolor sit amet, consectetur adipisicing
-                                            elit.
-                                            A
-                                            accusamus
-                                            atque, cupiditate deleniti dolor dolores ea enim, esse inventore iure
+                                            <h5 class="text-uppercase">The 90s are back</h5>
+                                        </a>
+                                        <p class="blogArticleText">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            elit. A accusamus atque, cupiditate deleniti dolor dolores ea enim, esse
+                                            inventore iure
                                             laudantium
                                             libero
-                                            magni minus nemo quas quidem sequi voluptate voluptates?</p>
+                                            magni minus nemo quas quidem sequi voluptate voluptates?
+                                        </p>
                                     </div>
                                     <a class="text-center text-uppercase d-block w-100 ml-auto mr-auto p-4"
-                                       href="./blog-information" target="_blank" aria-label="link blog=information">Read
-                                        more</a>
+                                       href="./blog-information" target="_blank" aria-label="link blog=information">
+                                        Read more
+                                    </a>
                                 </div>
 
                                 <div class="carousel-item">
@@ -38,19 +40,24 @@
                                         <span class="text-uppercase">September, 2019</span>
                                         <a class="text-decoration-none" href="./blog-information" target="_blank"
                                            aria-label="link blog=information">
-                                            <h5 class="text-uppercase">The colors of summer in the fall</h5></a>
-                                        <p class="blogArticleText">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            <h5 class="text-uppercase">
+                                                The colors of summer in the fall</h5>
+                                        </a>
+                                        <p class="blogArticleText">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing
                                             elit.
                                             Consectetur
                                             consequuntur cum debitis exercitationem explicabo magni quidem unde!
                                             Accusamus
                                             consectetur
                                             numquam omnis quae repellendus, sint vel veniam. Earum nam natus
-                                            quaerat!</p>
+                                            quaerat!
+                                        </p>
                                     </div>
                                     <a class="text-center text-uppercase d-block w-100 ml-auto mr-auto p-4"
-                                       href="./blog-information" target="_blank" aria-label="link blog=information">Read
-                                        more</a>
+                                       href="./blog-information" target="_blank" aria-label="link blog=information">
+                                        Read more
+                                    </a>
                                 </div>
 
                                 <div class="carousel-item">
@@ -61,19 +68,23 @@
                                         <span class="text-uppercase">September, 2019</span>
                                         <a class="text-decoration-none" href="./blog-information" target="_blank"
                                            aria-label="link blog=information">
-                                            <h5 class="text-uppercase">The colors of summer in the fall</h5></a>
-                                        <p class="blogArticleText">Lorem ipsum dolor sit amet, consectetur adipisicing
+                                            <h5 class="text-uppercase">The colors of summer in the fall</h5>
+                                        </a>
+                                        <p class="blogArticleText">
+                                            Lorem ipsum dolor sit amet, consectetur adipisicing
                                             elit.
                                             Consectetur
                                             consequuntur cum debitis exercitationem explicabo magni quidem unde!
                                             Accusamus
                                             consectetur
                                             numquam omnis quae repellendus, sint vel veniam. Earum nam natus
-                                            quaerat!</p>
+                                            quaerat!
+                                        </p>
                                     </div>
                                     <a class="text-center text-uppercase d-block w-100 ml-auto mr-auto p-4"
-                                       href="./blog-information" target="_blank" aria-label="link blog=information">Read
-                                        more</a>
+                                       href="./blog-information" target="_blank" aria-label="link blog=information">
+                                        Read more
+                                    </a>
                                 </div>
                             </div>
 

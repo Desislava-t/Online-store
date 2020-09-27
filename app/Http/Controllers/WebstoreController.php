@@ -6,13 +6,22 @@ use App\Product;
 use App\Subscribe;
 use App\Blog;
 use Gloudemans\Shoppingcart\Facades\Cart;
+use Illuminate\Support\Facades\DB;
 
 class WebstoreController extends Controller
 {
     public function index()
     {
-        $products = Product::all();
-        return view('index')->with('products', $products);
+        try {
+            DB::connection()->getPdo();
+            if (DB::connection()->getDatabaseName()) {
+                $products = Product::all();
+                return view('index')->with('products', $products);
+            }
+        } catch (\Exception $e) {
+            die("Could not connect to the database. Please check your configuration. error:" . $e );
+        }
+        return view('index');
     }
 
     # Our function for adding a certain product to the cart

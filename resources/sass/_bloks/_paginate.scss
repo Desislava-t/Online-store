@@ -1,0 +1,13 @@
+.page-item.active .page-link {
+  color: $black-color !important;
+  background-color: inherit !important;
+  border-color: $nav-btn-color !important;
+}
+
+.page-link {
+  color: $black-color !important;
+}
+
+.pagination {
+  margin: 3em;
+}

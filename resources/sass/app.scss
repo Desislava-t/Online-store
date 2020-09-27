@@ -1,16 +1,22 @@
 // Fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito');
+//@import url('https://fonts.googleapis.com/css?family=Nunito');
 // Variables
 @import 'variables';
 @import 'mixin';
 @import '_bloks/main-nav';
 @import '_bloks/swiper';
 @import '_bloks/anchors';
+@import "_bloks/paginate";
 @import '_bloks/products';
 @import '_bloks/view-product';
 @import '_bloks/login-register';
 @import '_bloks/blog-article';
 @import '_bloks/page_products_view';
+@import "_bloks/home";
+@import "_bloks/checkout";
+@import "_bloks/containet_mt";
+@import "_bloks/btn";
+
 // Bootstrap
 @import '~bootstrap/scss/bootstrap';
 

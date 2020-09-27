@@ -2,11 +2,8 @@
   margin-top: 8rem;
 }
 
-.container-color {
-  background-color: $white-color;
-}
-.container-color .card-header{
-  background-color: $white-color;
+ .card-header{
+  background-color: $white-color !important;
 }
 
 .form-group .form-control:focus {

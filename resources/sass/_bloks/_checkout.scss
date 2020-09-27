@@ -1,0 +1,10 @@
+.row input:focus,
+.custom-select:focus {
+  border-color: $nav-btn-color;
+  box-shadow: inherit;
+}
+
+.container-margin-checkout {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}

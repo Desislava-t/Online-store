@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@charset "UTF-8";
 
 html,
 body {
@@ -48,9 +48,9 @@ body {
 .form-inline .btn-style-search,
 .modal-content .btn-cart-empty,
 .card-body .btn-home {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn-style-menu {
@@ -225,6 +225,20 @@ body {
   color: #8E2A36;
 }
 
+.page-item.active .page-link {
+  color: #000 !important;
+  background-color: inherit !important;
+  border-color: #8E2A36 !important;
+}
+
+.page-link {
+  color: #000 !important;
+}
+
+.pagination {
+  margin: 3em;
+}
+
 .content {
   display: flex;
   flex-wrap: wrap;
@@ -276,9 +290,9 @@ body {
 
 .content-item .btn-item:hover,
 .btn-group .btn-our-products:hover {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 /*Our products*/
@@ -395,25 +409,17 @@ body {
   clear: both;
 }
 
-.container-margin-view-product .card {
+.container-mt .card {
   border: none;
   background-color: transparent;
-}
-
-.container-margin-view-product {
-  margin-top: 5.5rem;
 }
 
 .container-margin {
   margin-top: 8rem;
 }
 
-.container-color {
-  background-color: #fff;
-}
-
-.container-color .card-header {
-  background-color: #fff;
+.card-header {
+  background-color: #fff !important;
 }
 
 .form-group .form-control:focus {
@@ -423,9 +429,9 @@ body {
 
 .card-body .btn-register,
 .card-body .btn-login {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 .card-body .btn-register:hover,
@@ -440,10 +446,6 @@ body {
 .card-body .btn-link:hover {
   color: #8E2A36;
   text-decoration: none;
-}
-
-.container-margin-blog {
-  margin-top: 4rem;
 }
 
 .content-blog {
@@ -573,6 +575,31 @@ body {
 }
 
 /*./feature products*/
+
+.homePage {
+  margin-top: 8rem;
+}
+
+.row input:focus,
+.custom-select:focus {
+  border-color: #8E2A36;
+  box-shadow: inherit;
+}
+
+.container-margin-checkout {
+  margin-top: 7rem;
+  margin-bottom: 4rem;
+}
+
+.container-mt {
+  margin-top: 6rem;
+}
+
+.btn-color {
+  background-color: #8E2A36 !important;
+  z-index: 3;
+  color: #fff !important;
+}
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
