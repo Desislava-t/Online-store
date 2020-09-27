@@ -2,66 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5669abd4-976b-4c18-9438-e3b429f85ac8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Online-store.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Online-store.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/WebstoreController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/WebstoreController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/factories/BlogFactory.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/factories/BlogFactory.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2019_12_09_115329_create_subscribes_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2019_12_09_115329_create_subscribes_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/seeds/SubscriberSeeder.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/seeds/SubscriberSeeder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_bloks/_blog-article.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bloks/_blog-article.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_bloks/_view-product.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bloks/_view-product.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixin.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/about-us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about-us.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/accessories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/accessories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/men-pants.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-pants.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/men-shirts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-shirts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/men-sweaters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-sweaters.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/men.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/home.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/view-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/view-product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/view-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/view-product.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/women-blouses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-blouses.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/women-dress.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-dress.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/women-jeans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-jeans.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/women.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women.blade.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="219" column="56" selection-start-line="219" selection-start-column="56" selection-end-line="219" selection-end-column="56" />
+            <state relative-caret-position="78">
+              <caret line="7860" column="19" selection-start-line="7860" selection-start-column="9" selection-end-line="7860" selection-end-column="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/composer.lock">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+            <state relative-caret-position="78">
+              <caret line="2262" column="40" selection-start-line="2262" selection-start-column="17" selection-end-line="2262" selection-end-column="40" />
             </state>
           </provider>
         </entry>
@@ -102,13 +44,18 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>serialize-</find>
+      <find>symfony/http-foundation</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/_view-product.scss" />
         <option value="$PROJECT_DIR$/resources/views/partials/products.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" />
@@ -159,6 +106,7 @@
         <option value="$PROJECT_DIR$/resources/js/app.js" />
         <option value="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
+        <option value="$PROJECT_DIR$/package-lock.json" />
       </list>
     </option>
   </component>
@@ -260,7 +208,7 @@
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="595" />
     <option name="y" value="141" />
     <option name="width" value="851" />
@@ -288,14 +236,7 @@
               <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-store" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Online-store" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -380,13 +321,12 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="84131000" />
+    <option name="totallyTimeSpent" value="86136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642964" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -401,7 +341,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4852941" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4852941" />
       <window_info anchor="bottom" id="TypeScript" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -413,35 +353,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102">
-          <caret line="171" column="44" selection-start-line="171" selection-start-column="44" selection-end-line="171" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/view-product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="27" column="28" lean-forward="true" selection-start-line="27" selection-start-column="28" selection-end-line="27" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_main-nav.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="80" selection-start-line="3" selection-start-column="80" selection-end-line="3" selection-end-column="80" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/auth/verify.blade.php">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -497,20 +408,6 @@
     <entry file="file://$PROJECT_DIR$/resources/js/components/ServiceComponent.vue">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_btn.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="10" selection-start-column="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriberController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1122" />
@@ -542,13 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_containet_mt.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-102" />
@@ -568,13 +458,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php" />
     <entry file="file://$PROJECT_DIR$/resources/views/about-us.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -715,23 +599,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="103">
-          <caret line="7" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/lazysize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8534">
-          <caret line="529" column="46" selection-start-line="529" selection-start-column="46" selection-end-line="529" selection-end-column="46" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/lazysize.js" />
     <entry file="file://$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-184">
@@ -750,6 +618,59 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="16" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_blog-article.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_btn.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="10" selection-start-column="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_home.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_containet_mt.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="1" lean-forward="true" selection-start-line="2" selection-start-column="1" selection-end-line="2" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-203">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-255" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="2262" column="40" selection-start-line="2262" selection-start-column="17" selection-end-line="2262" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="7860" column="19" selection-start-line="7860" selection-start-column="9" selection-end-line="7860" selection-end-column="19" />
         </state>
       </provider>
     </entry>
