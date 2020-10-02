@@ -1,16 +1,13 @@
 @extends('layouts.app')
 
 @section('meta')
-    <meta name="description" content="Demo online magazine, Accessories product page, front-end, Php Laravel 6, CSS">
-    <meta name="author" content="Desislava Georgieva, email : officedesislava@gmail.com, phone: 0897 722 275 ">
+    <meta name="description" content="Demo online magazine, Accessories product page, HTML, Php Laravel 6, CSS">
 @endsection
 
 @section('title-page','Accessories')
 
 @section('content')
+    @include('partials.main-mav.main-nav')
     @include('partials.accessories.accessories')
-@endsection
-
-@section('component')
     <subscriber-component-footer></subscriber-component-footer>
 @endsection

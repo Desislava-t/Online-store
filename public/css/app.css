@@ -48,9 +48,9 @@ body {
 .form-inline .btn-style-search,
 .modal-content .btn-cart-empty,
 .card-body .btn-home {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 .btn-style-menu {
@@ -276,9 +276,9 @@ body {
 
 .content-item .btn-item:hover,
 .btn-group .btn-our-products:hover {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 /*Our products*/
@@ -406,10 +406,7 @@ body {
 
 .container-margin {
   margin-top: 8rem;
-}
-
-.container-color {
-  background-color: #fff;
+  margin-bottom: 8rem;
 }
 
 .container-color .card-header {
@@ -417,15 +414,15 @@ body {
 }
 
 .form-group .form-control:focus {
-  border-color: #8E2A36;
-  box-shadow: inherit;
+  border-color: #8E2A36 !important;
+  box-shadow: inherit !important;
 }
 
 .card-body .btn-register,
 .card-body .btn-login {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
-  color: #fff;
+  color: #fff !important;
 }
 
 .card-body .btn-register:hover,
@@ -579,10 +576,48 @@ body {
 }
 
 .btn-color {
-  background-color: #8E2A36;
+  background-color: #8E2A36 !important;
   z-index: 3;
+  color: #fff !important;
+}
+
+.home-margin {
+  margin-top: 8rem;
+  margin-bottom: 8rem;
+}
+
+.form-control-border:focus {
+  border-color: #8E2A36 !important;
+  box-shadow: inherit !important;
+}
+
+select:focus > option:checked {
+  background: #8E2A36;
   color: #fff;
 }
+
+.custom-control-label::after {
+  background-color: #8E2A36 !important;
+  border-radius: 10px;
+}
+
+/*paginate*/
+
+.page-item.active .page-link {
+  color: #000 !important;
+  background-color: inherit !important;
+  border-color: #8E2A36 !important;
+}
+
+.page-link {
+  color: #000;
+}
+
+.pagination {
+  margin: 3em;
+}
+
+/*./paginate*/
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)

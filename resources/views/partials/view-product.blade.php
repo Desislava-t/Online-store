@@ -1,5 +1,5 @@
-<div class="container container-margin-view-product">
-    <div class="card mb-4" style="width: 100%;">
+<div class="container container-mt">
+    <div class="card mb-4 w-100">
         <div class="row">
             @foreach($viewProduct as $product)
                 <div class="col-md-4">
@@ -20,15 +20,18 @@
                                 Availability: In Stock
                             </li>
                         </ul>
-                        <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
+                        <p class="card-text">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam
                             debitis error, et eveniet itaque minus ullam ut! Assumenda delectus earum eligendi et
-                            hic, inventore maxime pariatur reiciendis repellat tempora tempore.</p>
+                            hic, inventore maxime pariatur reiciendis repellat tempora tempore.
+                        </p>
                         <p class="card-text">
                         <h2 class="text-muted">{{$product->price}} лв.</h2>
                         </p>
                         <!-- The button for adding the products to the cart -->
                         <a href="{{ route('add', [ $product->getRouteKey() ]) }}" aria-label="add to cart btn">
-                            <button class="btn btn-color" style="background-color: #8E2A36; color: #fff">Add to cart
+                            <button class="btn btn-color">
+                                Add to cart
                             </button>
                         </a>
                     </div>

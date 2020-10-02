@@ -1,4 +1,4 @@
-<div class="container container-margin-checkout">
+<div class="container container-mt mb-5">
     <div class="card">
         <div class="modal-body">
             <div class="text-center text-uppercase font-weight-bold p-3">
@@ -55,7 +55,8 @@
                 <div class="row">
                     <div class="col-md-6 mb-3">
                         <label for="firstName">First name</label>
-                        <input type="text" name="customer_first_name" class="form-control" id="firstName"
+                        <input type="text" name="customer_first_name" class="form-control form-control-border"
+                               id="firstName"
                                placeholder="Please, enter your first name" required>
                         <div class="invalid-feedback">
                             Valid first name is required.
@@ -63,7 +64,8 @@
                     </div>
                     <div class="col-md-6 mb-3">
                         <label for="lastName">Last name</label>
-                        <input type="text" name="customer_last_name" class="form-control" id="lastName"
+                        <input type="text" name="customer_last_name" class="form-control form-control-border"
+                               id="lastName"
                                placeholder="Please, enter your last name" required>
                         <div class="invalid-feedback">
                             Valid last name is required.
@@ -73,7 +75,7 @@
 
                 <div class="mb-3">
                     <label for="email">Email</label>
-                    <input type="email" name="customer_email" class="form-control" id="email"
+                    <input type="email" name="customer_email" class="form-control form-control-border" id="email"
                            placeholder="Please, enter an email address"
                            required>
                     <div class="invalid-feedback">
@@ -83,7 +85,8 @@
 
                 <div class="mb-3">
                     <label for="address">Address</label>
-                    <input type="text" name="customer_shipping_address" class="form-control" id="address"
+                    <input type="text" name="customer_shipping_address" class="form-control form-control-border"
+                           id="address"
                            placeholder="Please, enter your shipping address" required>
                     <div class="invalid-feedback">
                         Please enter your shipping address.
@@ -93,7 +96,8 @@
                 <div class="row">
                     <div class="col-md-5 mb-3">
                         <label for="country">Country</label>
-                        <select class="custom-select d-block w-100" name="customer_country" id="country" required>
+                        <select class="custom-select d-block w-100 form-control-border" name="customer_country"
+                                id="country" required>
                             <option value="Bulgarian">Bulgarian</option>
                         </select>
                         <div class="invalid-feedback">
@@ -102,7 +106,8 @@
                     </div>
                     <div class="col-md-4 mb-3">
                         <label for="state">City</label>
-                        <select class="custom-select d-block w-100" name="customer_city" id="state" required>
+                        <select class="custom-select d-block w-100 form-control-border" name="customer_city" id="state"
+                                required>
                             <option value="Sofia">Sofia</option>
                             <option value="Plovdiv">Plovdiv</option>
                             <option value="Varna">Varna</option>
@@ -134,7 +139,7 @@
                     </div>
                     <div class="col-md-3 mb-3">
                         <label for="zip">Zip</label>
-                        <input type="text" name="country_code" class="form-control" id="zip"
+                        <input type="text" name="country_code" class="form-control form-control-border" id="zip"
                                placeholder="Please, enter an zip code" required>
                         <div class="invalid-feedback">
                             Zip code required.
@@ -146,7 +151,9 @@
 
                 <div class="custom-control custom-checkbox">
                     <input type="checkbox" class="custom-control-input" name="customer_information" id="save-info">
-                    <label class="custom-control-label" for="save-info">Save this information for next time</label>
+                    <label class="custom-control-label form-control-border" for="save-info">
+                        Save this information for next time
+                    </label>
                 </div>
                 <hr class="mb-4">
 
@@ -154,15 +161,17 @@
 
                 <div class="d-block my-3">
                     <div class="custom-control custom-radio">
-                        <input id="credit" name="paymentMethod" type="radio" class="custom-control-input" checked=""
+                        <input id="credit" name="paymentMethod" type="radio"
+                               class="custom-control-input form-control-border" checked=""
                                required>
-                        <label class="custom-control-label" for="credit">Cash on Delivery</label>
+                        <label class="custom-control-label" for="credit">
+                            Cash on Delivery
+                        </label>
                     </div>
                 </div>
                 <hr class="mb-4">
-                <button class="btn btn-cart btn-lg btn-block" style="background-color: #8E2A36; color: #fff"
-                        type="submit">Continue
-                    to checkout
+                <button class="btn btn-cart btn-lg btn-block btn-color" type="submit">
+                    Continue to checkout
                 </button>
                 @if(session('message'))
                     <div class="alert alert-info mt-5">
@@ -173,16 +182,3 @@
         </div>
     </div>
 </div>
-<style>
-    .row input:focus,
-    .custom-select:focus {
-        border-color: #8E2A36;
-        box-shadow: inherit;
-    }
-
-    .container-margin-checkout {
-        margin-top: 7rem;
-        margin-bottom: 4rem;
-    }
-
-</style>

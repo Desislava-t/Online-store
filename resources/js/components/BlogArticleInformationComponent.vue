@@ -1,24 +1,25 @@
 <template>
 
-    <div class="container" style="margin-top: 6em">
+    <div class="container container-mt">
 
         <!--Blog nav-->
         <div class="row">
             <div class="col-3">
-                <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+                <div class="nav flex-column" role="tablist" aria-orientation="vertical">
                     <h5 class="text-uppercase">Categories</h5>
-                    <a class="nav-link text-decoration-none" id="v-pills-profile-tab" data-toggle="pill"
-                       href="#v-pills-profile" role="tab"
-                       aria-controls="v-pills-profile" aria-selected="false">Profile</a>
-                    <a class="nav-link text-decoration-none" id="v-pills-messages-tab" data-toggle="pill"
-                       href="#v-pills-messages" role="tab"
-                       aria-controls="v-pills-messages" aria-selected="false">Messages</a>
-                    <a class="nav-link text-decoration-none" id="v-pills-settings-tab" data-toggle="pill"
-                       href="#v-pills-settings" role="tab"
-                       aria-controls="v-pills-settings" aria-selected="false">Settings</a>
-                    <a class="nav-link text-decoration-none" id="v-pills-fashion-tab" data-toggle="pill"
-                       href="#v-pills-settings" role="tab"
-                       aria-controls="v-pills-fashion" aria-selected="false">Fashion</a>
+                    <a class="nav-link text-decoration-none" href="#" aria-label="Profile" role="tab">
+                        Profile
+                    </a>
+                    <a class="nav-link text-decoration-none" href="#" aria-label="Messages" role="tab">
+                        Messages
+                    </a>
+                    <a class="nav-link text-decoration-none" href="#" aria-label="Settings" role="tab">
+                        Settings
+                    </a>
+                    <a class="nav-link text-decoration-none"
+                       href="#" aria-label="Fashion" role="tab">
+                        Fashion
+                    </a>
                     <!--./Blog nav-->
 
                     <!--Feature product-->
@@ -75,9 +76,8 @@
 
 
             <div class="col-9">
-                <div class="tab-content" id="v-pills-tabContent">
-                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
-                         aria-labelledby="v-pills-home-tab">
+                <div class="tab-content">
+                    <div class="tab-pane fade show active" role="tabpanel">
 
                         <!--Blog article-->
                         <div class="card">
@@ -99,7 +99,9 @@
                               @submit.prevent="blogCommentUsers()">
                             <div class="card">
 
-                                <div class="card-header text-uppercase text-center">Add comment</div>
+                                <div class="card-header text-uppercase text-center">
+                                    Add comment
+                                </div>
                                 <div class="card-body">
                                     <div class="form-group">
                                         <label for="author" class="requiredInput">Author: </label>
@@ -118,8 +120,8 @@
                                                   v-model="author_comment"
                                                   rows="3"></textarea>
                                     </div>
-                                    <button type="submit" class="btn d-block ml-auto mr-auto"
-                                            style="background-color: #8E2A36;color: #fff">Add comment
+                                    <button type="submit" class="btn d-block ml-auto mr-auto btn-color">
+                                        Add comment
                                     </button>
                                 </div>
                             </div>

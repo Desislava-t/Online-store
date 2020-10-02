@@ -23,6 +23,8 @@ window.Vue = require('vue');
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 
 // Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+Vue.component('swiper-component', require('./components/SwiperComponent').default);
+Vue.component('best-selling-component', require('./components/BestSellingComponent').default);
 Vue.component('blog-article-component', require('./components/BlogArticleComponent').default);
 Vue.component('blog-review-component', require('./components/BlogReviewComponent').default);
 Vue.component('blog-article-information', require('./components/BlogArticleInformationComponent').default);

@@ -2,7 +2,59 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5669abd4-976b-4c18-9438-e3b429f85ac8" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/app.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/app.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/components/ServiceComponent.vue" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/components/ServiceComponent.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/sass/_mixin.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/_mixin.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/about-us.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/about-us.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/accessories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/accessories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/login.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/login.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/auth/register.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/auth/register.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/app.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/men-pants.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-pants.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/men-shirts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-shirts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/men-sweaters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men-sweaters.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/men.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/men.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/home.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/home.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/swiper.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/view-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/view-product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/view-product.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/view-product.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/welcome.blade.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/women-blouses.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-blouses.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/women-dress.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-dress.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/women-jeans.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women-jeans.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/women.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/women.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webstore-demo" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,39 +66,12 @@
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_container_mt.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_mixin.scss">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="51">
-              <caret line="12" column="16" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_btn-color.scss">
+        <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+            <state relative-caret-position="85">
+              <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="24" selection-end-column="81" />
             </state>
           </provider>
         </entry>
@@ -57,6 +82,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="Vue Single File Component" />
         <option value="SCSS File" />
       </list>
     </option>
@@ -68,57 +94,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/women-jeans.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/women-dress.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/women-blouses.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/women.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/view-product.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/men-sweaters.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/men-shirts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/men-pants.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/men.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_bloks/_home.scss" />
+        <option value="$PROJECT_DIR$/resources/views/partials/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/blog.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/accessories.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/about-us.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/partials/main-nav/main-nav.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/partials/register.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/auth/partials/login.blade.php" />
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/_btn.scss" />
-        <option value="$PROJECT_DIR$/resources/views/blog.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/sass/_bloks/_btn-color.scss" />
+        <option value="$PROJECT_DIR$/resources/views/partials/view-product.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/BestSellingComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/partials/products.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/swiper.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/SwoperComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/app.js" />
+        <option value="$PROJECT_DIR$/resources/js/components/SwiperComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/checkout.blade.php" />
         <option value="$PROJECT_DIR$/resources/sass/_mixin.scss" />
-        <option value="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/partials/checkout.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_bloks/_ckeckout.scss" />
+        <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
+        <option value="$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_bloks/_paginate.scss" />
+        <option value="$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/men/men.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/partials/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/partials/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/register.blade.php" />
+        <option value="$PROJECT_DIR$/resources/views/auth/login.blade.php" />
+        <option value="$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss" />
+        <option value="$PROJECT_DIR$/resources/views/blog/blog-information.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php" />
-        <option value="$PROJECT_DIR$/database/seeds/SubscriberSeeder.php" />
-        <option value="$PROJECT_DIR$/database/migrations/2019_12_09_115329_create_subscribes_table.php" />
-        <option value="$PROJECT_DIR$/resources/views/checkout.blade.php" />
-        <option value="$PROJECT_DIR$/resources/views/home.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue" />
-        <option value="$PROJECT_DIR$/resources/js/lazysize.js" />
-        <option value="$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php" />
+        <option value="$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/js/components/ServiceComponent.vue" />
         <option value="$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue" />
+        <option value="$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/layouts/app.blade.php" />
-        <option value="$PROJECT_DIR$/resources/js/app.js" />
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/_container_mt.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/btn-color.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/app.scss" />
-        <option value="$PROJECT_DIR$/resources/sass/_bloks/_btn-color.scss" />
       </list>
     </option>
   </component>
@@ -218,11 +244,12 @@
       <path value="$PROJECT_DIR$/vendor/league/commonmark" />
       <path value="$PROJECT_DIR$/vendor/symfony/polyfill-php80" />
       <path value="$PROJECT_DIR$/vendor/symfony/http-client-contracts" />
+      <path value="$PROJECT_DIR$/vendor/erusev/parsedown" />
     </include_path>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="595" />
-    <option name="y" value="141" />
+    <option name="x" value="521" />
+    <option name="y" value="68" />
     <option name="width" value="851" />
     <option name="height" value="771" />
   </component>
@@ -248,14 +275,34 @@
               <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-store" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
               <item name="Online-store" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="sass" type="462c0819:PsiDirectoryNode" />
-              <item name="_bloks" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-store" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-store" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="layouts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Online-store" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Online-store" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="partials" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -266,10 +313,11 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Giftarena" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Giftarena.eu" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -336,17 +384,19 @@
       <workItem from="1601043383305" duration="3077000" />
       <workItem from="1601125974121" duration="559000" />
       <workItem from="1601204116968" duration="14019000" />
+      <workItem from="1601230398726" duration="1352000" />
+      <workItem from="1601386877127" duration="15084000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="85209000" />
+    <option name="totallyTimeSpent" value="101645000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3161876" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2473525" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
@@ -360,9 +410,9 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.4852941" />
-      <window_info anchor="bottom" id="TypeScript" order="12" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50075644" side_tool="true" weight="0.4852941" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49924356" visible="true" weight="0.4852941" />
+      <window_info anchor="bottom" id="TypeScript" order="12" weight="0.32843137" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -373,344 +423,362 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-566">
-          <caret line="1" column="38" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-600">
-          <caret line="81" column="31" selection-start-line="81" selection-start-column="31" selection-end-line="81" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/ServiceComponent.vue">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_btn.scss">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="10" selection-start-column="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/SubscriberController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1122" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/Http/Controllers/CheckoutController.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-510" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/migrations/2019_12_09_115329_create_subscribes_table.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="45" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/SubscriberSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="97">
-          <caret line="15" column="49" lean-forward="true" selection-start-line="15" selection-start-column="49" selection-end-line="15" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/routes/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="54" column="41" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_containet_mt.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-column="1" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/database/seeds/DatabaseSeeder.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-102" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="54" selection-start-line="10" selection-start-column="54" selection-end-line="10" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="20" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/welcome.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="21" lean-forward="true" selection-start-line="8" selection-start-column="21" selection-end-line="8" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/about-us.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="16" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/accessories.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="10" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/checkout.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" selection-start-line="13" selection-end-line="15" selection-end-column="11" />
+          <caret column="33" selection-start-column="33" selection-end-column="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/home.blade.php">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="97" selection-start-line="3" selection-start-column="97" selection-end-line="3" selection-end-column="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_home.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="1" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/accessories-sunglasses.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="13" lean-forward="true" selection-start-line="13" selection-end-line="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/accessories.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/products.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-102">
+          <caret column="23" selection-start-column="23" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/swiper.blade.php">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/SwiperComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="55" column="18" selection-start-line="55" selection-start-column="18" selection-end-line="55" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/checkout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="63" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_ckeckout.scss">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/checkout.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="110" column="49" selection-start-line="110" selection-start-column="49" selection-end-line="110" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_mixin.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="24" column="32" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/index.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="289">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/men.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="88">
+          <caret line="25" column="71" selection-start-line="25" selection-start-column="71" selection-end-line="25" selection-end-column="71" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/men-pants.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_products.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="-714" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_swiper.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" selection-start-line="6" selection-end-line="6" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/men-sweaters.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/women/women-jeans.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/view-product.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/women.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/women-blouses.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/women-dress.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="42" selection-start-line="13" selection-start-column="42" selection-end-line="13" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/women-jeans.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/men-shirts.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/blog/blog-information.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="11" selection-start-line="11" selection-start-column="11" selection-end-line="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/main-nav/main-nav.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-226">
-          <caret line="218" column="45" selection-start-line="218" selection-start-column="45" selection-end-line="218" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1479">
-          <caret line="69" column="82" selection-start-line="69" selection-start-column="82" selection-end-line="69" selection-end-column="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/lazysize.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8534">
-          <caret line="529" column="46" selection-start-line="529" selection-start-column="46" selection-end-line="529" selection-end-column="46" />
+        <state relative-caret-position="369">
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+            <element signature="n#a#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/women/women-products.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="198" column="30" selection-start-line="198" selection-start-column="30" selection-end-line="198" selection-end-column="30" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/women/women-dress.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-700">
+          <caret line="84" column="63" lean-forward="true" selection-start-line="84" selection-start-column="63" selection-end-line="84" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_paginate.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" selection-start-line="7" selection-end-line="13" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/men/men.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1292">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/men/men-pants.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/men/men-shirts.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1108">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="16" selection-start-column="10" selection-end-line="80" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/men/men-sweaters.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/partials/accessories/accessories.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-184">
-          <caret line="160" column="110" selection-start-line="160" selection-start-column="110" selection-end-line="160" selection-end-column="110" />
+        <state relative-caret-position="121">
+          <caret line="80" column="18" lean-forward="true" selection-start-line="16" selection-start-column="11" selection-end-line="80" selection-end-column="18" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/accessories/accessories-sunglasses.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="780">
+          <caret line="161" column="110" selection-start-line="161" selection-start-column="110" selection-end-line="161" selection-end-column="110" />
+          <folding>
+            <element signature="n#nav#0;n#div#0;n#div#1;n#div#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/view-product.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="32" selection-start-line="33" selection-start-column="32" selection-end-line="33" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/partials/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="91" column="6" selection-start-line="91" selection-start-column="6" selection-end-line="91" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="63" selection-start-line="12" selection-start-column="63" selection-end-line="12" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog/blog-information.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="68" selection-start-line="3" selection-start-column="68" selection-end-line="3" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/register.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="63" selection-start-line="11" selection-start-column="63" selection-end-line="11" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/blog.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" selection-start-line="11" selection-end-line="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/auth/partials/login.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="38" selection-start-column="22" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/subscriber/subscribers.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="24" selection-start-line="31" selection-start-column="24" selection-end-line="31" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/admin/subscriber/subscriber-edit-update.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/about-us.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="79" selection-start-line="3" selection-start-column="79" selection-end-line="3" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/AboutUsComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1157">
+          <caret line="71" column="22" lean-forward="true" selection-start-line="7" selection-start-column="13" selection-end-line="71" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/BestSellingComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="629">
+          <caret line="37" column="10" selection-start-line="37" selection-start-column="10" selection-end-line="37" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/BlogArticleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="6" column="54" lean-forward="true" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/BlogArticleInformationComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2278">
+          <caret line="122" column="102" selection-start-line="122" selection-start-column="102" selection-end-line="122" selection-end-column="102" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/BlogReviewComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-189">
+          <caret line="153" column="36" selection-start-line="153" selection-start-column="36" selection-end-line="153" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ExampleComponent.vue">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/js/components/ServiceComponent.vue">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-124">
+          <caret line="26" column="16" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/js/components/FooterSubscriberComponent.vue">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-699">
-          <caret line="197" column="56" selection-start-line="197" selection-start-column="56" selection-end-line="197" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#button#0;n#form#0;n#div#4;n#div#0;n#div#0;n#footer#0;n#template#0;n#!!top" expanded="true" />
-            <element signature="e#5744#5751#1" expanded="true" />
-            <element signature="e#6168#6175#1" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#li#1;n#ul#0;n#footer#0;n#template#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="590">
+          <caret line="194" column="57" selection-start-line="194" selection-start-column="57" selection-end-line="194" selection-end-column="57" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/checkout.blade.php">
+    <entry file="file://$PROJECT_DIR$/resources/views/partials/women/women-blouses.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-204" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/partials/home.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-          </folding>
+        <state relative-caret-position="63">
+          <caret line="191" column="21" selection-start-line="191" selection-start-column="21" selection-end-line="191" selection-end-column="21" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="24" selection-start-line="24" selection-start-column="3" selection-end-line="24" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3553">
-          <caret line="247" column="18" selection-start-line="247" selection-start-column="18" selection-end-line="247" selection-end-column="18" />
-          <folding>
-            <element signature="e#3786#3793#1#HTML" expanded="true" />
-            <element signature="n#style#0;n#a#1;n#div#2;n#div#0;n#div#0;n#div#1;n#nav#0;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#form#0;n#div#0;n#li#2;n#ul#0;n#div#0;n#div#1;n#div#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="e#12421#12428#1#HTML" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_blog-article.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_login-register.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_page_products_view.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-357" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_products.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_swiper.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_view-product.scss">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_container_mt.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_main-nav.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/sass/_mixin.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="12" column="16" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="16" />
+        <state>
+          <caret column="13" selection-start-column="1" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/sass/_bloks/_btn-color.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        <state>
+          <caret column="10" selection-start-column="1" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/sass/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="20" column="14" selection-start-line="20" selection-end-line="20" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/views/layouts/app.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="23" column="3" selection-start-line="23" selection-start-column="3" selection-end-line="24" selection-end-column="81" />
         </state>
       </provider>
     </entry>

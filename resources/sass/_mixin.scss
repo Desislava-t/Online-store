@@ -11,9 +11,9 @@
 }
 
 @mixin btn_style() {
-  background-color: $nav-btn-color;
+  background-color: $nav-btn-color !important;
   z-index: 3;
-  color: $white-color;
+  color: $white-color !important;
 }
 
 @mixin btn_style-hover {
@@ -21,8 +21,8 @@
 }
 
 @mixin input-border-focus {
-  border-color: $nav-btn-color;
-  box-shadow: inherit;
+  border-color: $nav-btn-color !important;
+  box-shadow: inherit !important;
 }
 
 @mixin responsive_view {

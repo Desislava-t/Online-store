@@ -1,0 +1,15 @@
+.form-control-border:focus {
+  @include input-border-focus;
+}
+
+select:focus > option:checked {
+  background: $nav-btn-color;
+  color: $white-color;
+}
+
+.custom-control-label::after {
+  background-color: $nav-btn-color !important;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+}
