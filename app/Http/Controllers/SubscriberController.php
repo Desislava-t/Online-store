@@ -17,7 +17,7 @@ class SubscriberController extends Controller
         $subscribers = Subscribe::all();
         $subscribers = Subscribe::paginate(10);
 //        dd($subscribe);
-        return view('admin/subscriber/subscribers', compact('subscribers'));
+        return view('subscriber/subscribers', compact('subscribers'));
     }
 
     /**
@@ -74,7 +74,7 @@ class SubscriberController extends Controller
     {
         //define view
         $subscriber = Subscribe::find($id);
-        return view('admin/subscriber/subscriber-edit-update', compact('subscriber'));
+        return view('subscriber/subscriber-edit-update', compact('subscriber'));
     }
 
     /**
@@ -89,7 +89,7 @@ class SubscriberController extends Controller
         $subscriber = Subscribe::find($id);
         $subscriber->email = $request->input('email');
         $subscriber->save();
-        return redirect('admin/subscriber/subscribers');
+        return redirect('subscriber/subscribers');
     }
 
     /**
@@ -101,6 +101,6 @@ class SubscriberController extends Controller
     public function destroy($id)
     {
         Subscribe::destroy($id);
-        return redirect('admin/subscriber/subscribers');
+        return redirect('subscriber/subscribers');
     }
 }

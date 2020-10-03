@@ -1,7 +1,7 @@
 <?php
-Route::get('/welcome', function () {
-    return view('welcome');
-});
+//Route::get('/welcome', function () {
+//    return view('welcome');
+//});
 
 Route::get('/blog-information', function () {
     return view('blog.blog-information');
@@ -52,13 +52,13 @@ Route::get('/empty', 'WebstoreController@destroyCart')->name('empty');
 //# PayPal status callback
 //Route::get('status', 'PaypalController@getPaymentStatus');
 
-Route::get('/admin/subscriber/subscribers', 'SubscriberController@index')->name('subscribers');
+Route::get('subscriber/subscribers', 'SubscriberController@index')->name('subscribers');
 
-Route::get('admin/subscriber/subscribers/delete/{id}', 'SubscriberController@destroy')->name('subscriber.delete');
+Route::get('subscriber/subscribers/delete/{id}', 'SubscriberController@destroy')->name('subscriber.delete');
 
-Route::get('admin/subscriber/subscriber-edit/{id}', 'SubscriberController@edit')->name('subscriber-edit');
+Route::get('subscriber/subscriber-edit/{id}', 'SubscriberController@edit')->name('subscriber-edit');
 
-Route::post('admin/subscriber/subscriber-update/{id}', 'SubscriberController@update')->name('subscriber-update');
+Route::post('subscriber/subscriber-update/{id}', 'SubscriberController@update')->name('subscriber-update');
 
 Auth::routes(['verify' => true]);
 
